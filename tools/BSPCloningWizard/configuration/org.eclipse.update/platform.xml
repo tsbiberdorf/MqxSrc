@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config transient="false" date="1366285860453">
+	<site enabled="true" updateable="true" policy="USER-EXCLUDE" url="platform:/base/">
+		<feature id="org.eclipse.rcp" url="features/org.eclipse.rcp_3.7.2.v20120120-1424-9DB5FmnFq5JCf1UA38R-kz0S0272/" version="3.7.2.v20120120-1424-9DB5FmnFq5JCf1UA38R-kz0S0272">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.rcp.feature" url="features/org.eclipse.equinox.p2.rcp.feature_1.0.1.v20110906-1605-782EqBqNKGVkiV-PUsgz-uny4gqO/" version="1.0.1.v20110906-1605-782EqBqNKGVkiV-PUsgz-uny4gqO">
+		</feature>
+		<feature id="org.eclipse.platform" url="features/org.eclipse.platform_3.7.2.v20120207-1839-9gF7UHPDFxGjd-PqDr2jX_4yKaumkoHTz04_q-q/" version="3.7.2.v20120207-1839-9gF7UHPDFxGjd-PqDr2jX_4yKaumkoHTz04_q-q">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.user.ui" url="features/org.eclipse.equinox.p2.user.ui_2.1.2.R37x_v20110815-1155-6-Bk8pYWZz0qUTX5I15GZWwbXkrl/" version="2.1.2.R37x_v20110815-1155-6-Bk8pYWZz0qUTX5I15GZWwbXkrl">
+		</feature>
+		<feature id="org.eclipse.help" plugin-identifier="org.eclipse.help.base" url="features/org.eclipse.help_1.3.0.v20110530-0844-7i7uFFmFFl8nvqbDpEqTvx/" version="1.3.0.v20110530-0844-7i7uFFmFFl8nvqbDpEqTvx">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.core.feature" url="features/org.eclipse.equinox.p2.core.feature_1.0.1.v20110906-1605-8290FZ9FVKHVRKtmx3fpNuo02129/" version="1.0.1.v20110906-1605-8290FZ9FVKHVRKtmx3fpNuo02129">
+		</feature>
+		<feature id="com.freescale.mqx.bspcloner.feature" plugin-identifier="com.freescale.mqx.bspcloner.wizard" url="features/com.freescale.mqx.bspcloner.feature_1.0.8.201304181350/" version="1.0.8.201304181350">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.extras.feature" url="features/org.eclipse.equinox.p2.extras.feature_1.0.1.v20110906-1605-7A4FD4DiVOMap8cHSc6vPuny4gqO/" version="1.0.1.v20110906-1605-7A4FD4DiVOMap8cHSc6vPuny4gqO">
+		</feature>
+	</site>
+</config>

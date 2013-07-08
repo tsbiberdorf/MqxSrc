@@ -1,0 +1,140 @@
+-proc cortex-m4
+-fp soft
+-little
+-msgstyle parseable
+-g3
+-thumb
+-interworking
+-cwd include
+-enc ascii
+-i
+"$(MCUToolsBaseDirEnv)/ARM_EABI_Support/ewl/EWL_C/include"
+-i
+"$(HOST)/khci"
+-i
+"$(INCLUDE)/rtos"
+-i
+"$(INCLUDE)/khci"
+-i
+"$(SOURCE)/include"
+-i
+"$(CLASSES)/include"
+-i
+"$(COMMON)/include"
+-i
+"$(SOURCE1)/tad"
+-i
+"$(CORTEX_M)/cpu"
+-i
+"$(CORE)/M4"
+-i
+"$(COMPILER)/cw"
+-i
+"$(PSP)/cortex_m"
+-i
+"$(IO)/usb"
+-i
+"$(IO)/timer"
+-i
+"$(IO)/tfs"
+-i
+"$(IO)/tchres"
+-i
+"$(IO)/spi"
+-i
+"$(IO)/serial"
+-i
+"$(SDCARD)/sdcard_spi"
+-i
+"$(SDCARD)/sdcard_esdhc"
+-i
+"$(IO)/sdcard"
+-i
+"$(IO)/rtc"
+-i
+"$(IO)/pipe"
+-i
+"$(IO)/pcflash"
+-i
+"$(IO)/pccard"
+-i
+"$(PCB)/mqxa"
+-i
+"$(IO)/pcb"
+-i
+"$(IO)/lwgpio"
+-i
+"$(IO)/lpm"
+-i
+"$(IO)/io_null"
+-i
+"$(IO)/io_mem"
+-i
+"$(IO)/io_dun"
+-i
+"$(I2S)/int"
+-i
+"$(IO)/i2s"
+-i
+"$(I2C)/polled"
+-i
+"$(I2C)/int"
+-i
+"$(IO)/i2c"
+-i
+"$(IO)/hwtimer"
+-i
+"$(TSS)/shared"
+-i
+"$(IO)/hmi"
+-i
+"$(GPIO)/kgpio"
+-i
+"$(IO)/gpio"
+-i
+"$(FLASHX)/freescale"
+-i
+"$(IO)/flashx"
+-i
+"$(IO)/esdhc"
+-i
+"$(ENET)/phy"
+-i
+"$(ENET)/macnet"
+-i
+"$(IO)/enet"
+-i
+"$(IO)/debug"
+-i
+"$(IO)/cm"
+-i
+"$(CAN)/flexcan"
+-i
+"$(ADC)/kadc"
+-i
+"$(IO)/adc"
+-i
+"$(SOURCE1)/include"
+-i
+"$(BSP)/twrk60n512"
+-i
+"$(CONFIG)/twrk60n512"
+-i
+"$(CONFIG)/common"
+-w illpragmas
+-w possible
+-w missingreturn
+-w extracomma
+-w empty
+-opt space
+-inline on
+-generic_symbol_names off
+-sdata 8
+-lang c99
+-enum int
+-Cpp_Exceptions off
+-RTTI off
+-define _DEBUG=1
+-define _EWL_FLOATING_POINT=1
+-define __CWARM__=1
+-define __CODEWARRIOR__=1

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<wizardExtension>
+	<newProjectExtension>
+		<launchSettings>
+		
+			<settingsGroup id="MQX_e200_multi_core_settings_int_ram" conditionId="mcu.mqxprojectwizard1.condition.pa.multiCore.mode">
+				
+				<settingsGroupRef id="MQX_e200_multi_core_settings"/>
+				
+				<settingsGroupRef id="MQX_e200_multi_core_homogeneous_settings"/>
+				
+				<settingsGroupRef id="MQX_e200_multi_core_heterogeneous_settings"/>
+				
+				<applySetting id="com.freescale.cdt.debug.cw.CW_SHADOWED_PREF.Embedded Initialization.useInitFile" value="false" type="boolean"/>
+        <applySetting id="com.freescale.cdt.debug.cw.CW_SHADOWED_PREF.Embedded Initialization.initPath" value="${MQX_ROOT_DIR}/lib/${BoardName}.cw10/dbg/${Mqx_IntRam_TclFileName}" type="string"/>
+				<!--applySetting id="com.freescale.cdt.debug.cw.CW_SHADOWED_PREF.Embedded Initialization.initPath" value="${MQX_ROOT_DIR}/lib/${BoardName}.cw10/dbg/${ChipId}_P0${pa_LSM_DPM_var}_INT_RAM_${pa_VLE_BOOKE_var}.tcl" type="string"/-->
+				
+			</settingsGroup>
+		</launchSettings>
+	</newProjectExtension>
+</wizardExtension>

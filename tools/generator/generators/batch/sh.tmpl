@@ -1,0 +1,43 @@
+#!/bin/sh
+
+# expect forward slash paths
+MQXROOTDIR="${1}"
+OUTPUTDIR="${2}"
+TOOL="${3}"
+
+[%  IF pePath -%]
+# remove processor expert files if exists
+rm -rf "${OUTPUTDIR}/Generated_Code"
+rm -rf "${OUTPUTDIR}/Sources"
+[%  END -%]
+
+# copy common files
+mkdir -p "${OUTPUTDIR}"
+[%  IF common.size -%]
+[%      FOREACH directory IN common.dirs.keys.sort -%]
+mkdir -p "${OUTPUTDIR}/[% directory %]"
+[%      END -%]
+[%      FOREACH source IN common.copy.keys.sort -%]
+[%      target = common.copy.$source            -%]
+cp -f "${MQXROOTDIR}/[% source %]" "${OUTPUTDIR}/[% target %]"
+[%      END -%]
+[%  END -%]
+
+
+[%  FOREACH tool IN tools.keys -%]
+# [% tool %] files
+if [ "${TOOL}" = "[% tool %]" ]; then
+[%      IF tools.$tool.copy.keys.size -%]
+[%          FOREACH directory IN tools.$tool.dirs.keys.sort -%]
+mkdir -p "${OUTPUTDIR}/[% directory %]"
+[%          END -%]
+[%          FOREACH source IN tools.$tool.copy.keys.sort -%]
+[%      target = tools.$tool.copy.$source   -%]
+cp -f "${MQXROOTDIR}/[% source %]" "${OUTPUTDIR}/[% target %]"
+[%          END -%]
+[%      ELSE -%]
+:
+[%      END -%]
+fi
+[%  END -%]
+

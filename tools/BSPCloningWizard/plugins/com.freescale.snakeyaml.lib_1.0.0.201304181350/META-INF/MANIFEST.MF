@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Export-Package: org.yaml.snakeyaml,org.yaml.snakeyaml.composer,org.yam
+ l.snakeyaml.constructor,org.yaml.snakeyaml.emitter,org.yaml.snakeyaml
+ .error,org.yaml.snakeyaml.events,org.yaml.snakeyaml.extensions.compac
+ tnotation,org.yaml.snakeyaml.external.biz.base64Coder,org.yaml.snakey
+ aml.external.com.google.gdata.util.common.base,org.yaml.snakeyaml.int
+ rospector,org.yaml.snakeyaml.nodes,org.yaml.snakeyaml.parser,org.yaml
+ .snakeyaml.reader,org.yaml.snakeyaml.representer,org.yaml.snakeyaml.r
+ esolver,org.yaml.snakeyaml.scanner,org.yaml.snakeyaml.serializer,org.
+ yaml.snakeyaml.tokens,org.yaml.snakeyaml.util
+Bundle-Vendor: Freescale Semiconductor
+Bundle-ClassPath: snakeyaml-1.10.jar,.
+Bundle-Version: 1.0.0.201304181350
+Bundle-Name: SnakeYAML Library
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.freescale.snakeyaml.lib
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+
+

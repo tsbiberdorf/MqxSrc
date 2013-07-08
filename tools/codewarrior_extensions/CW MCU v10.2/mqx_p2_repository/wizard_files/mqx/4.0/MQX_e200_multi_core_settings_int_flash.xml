@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<wizardExtension>
+	<newProjectExtension>
+		<launchSettings>
+		
+			<settingsGroup id="MQX_e200_multi_core_settings_int_flash" conditionId="mcu.mqxprojectwizard1.condition.pa.multiCore.mode">
+				
+				<settingsGroupRef id="MQX_e200_multi_core_settings"/>
+				
+				<settingsGroupRef id="MQX_e200_multi_core_homogeneous_settings"/>
+				
+				<settingsGroupRef id="MQX_e200_multi_core_heterogeneous_settings"/>
+				
+				<!-- Fix @MTWX43275 -->
+				<applySetting id="com.freescale.cdt.debug.cw.Embedded Download.ExecuteTasks" value="true" type="boolean"/>
+				<!--applySetting id="com.freescale.cdt.debug.cw.Embedded Download.TaskNames" type="list" mode="append"><listValue value="${MQX_ROOT_DIR}/lib/${BoardName}.cw10/dbg/${ChipId}_P0${pa_LSM_DPM_var}_INT_FLASH_${pa_VLE_BOOKE_var}.tcl"/></applySetting-->
+        <applySetting id="com.freescale.cdt.debug.cw.Embedded Download.TaskNames" type="list" mode="append"><listValue value="${MQX_ROOT_DIR}/lib/${BoardName}.cw10/dbg/${Mqx_IntFlash_TclFileName}"/></applySetting>
+				<applySetting id="com.freescale.cdt.debug.cw.Embedded Download.TaskTypes" type="list" mode="append"><listValue value="___CLDE_SCRIPT___"/></applySetting>
+				<applySetting id="com.freescale.cdt.debug.cw.Embedded Download.TaskInitialLaunches" type="list" mode="append"><listValue value="true"/></applySetting>
+				<applySetting id="com.freescale.cdt.debug.cw.Embedded Download.TaskSuccessiveRuns" type="list" mode="append"><listValue value="true"/></applySetting>
+				
+				<!-- Complete fix @MTWX43275 -->
+				<applySetting id="com.freescale.cdt.debug.cw.CW_SHADOWED_PREF.Embedded Initialization.useInitFile" value="false" type="boolean"/>
+				<applySetting id="com.freescale.cdt.debug.cw.CW_SHADOWED_PREF.Embedded Initialization.initPath" value="${MQX_ROOT_DIR}/lib/${BoardName}.cw10/dbg/${Mqx_IntFlash_TclFileName}" type="string"/>
+				
+			</settingsGroup>
+		</launchSettings>
+	</newProjectExtension>
+</wizardExtension>

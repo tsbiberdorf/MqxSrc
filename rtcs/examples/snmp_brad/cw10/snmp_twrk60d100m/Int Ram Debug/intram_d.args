@@ -1,0 +1,25 @@
+"./Source/snmptraps_c.obj"
+"./Source/snmp_demo_c.obj"
+-proc cortex-m4
+-fp soft
+-little
+-msgstyle parseable
+-g3
+-thumb
+-interworking
+-lavender model=ewl ,print=int ,scan=int ,io=raw
+-nostdlib
+"$(BSP)/intram.lcf"
+-main __boot
+-L"$(MCUToolsBaseDirEnv)/ARM_EABI_Support/ewl/lib"
+-L"$(DEBUG)/bsp"
+-L"$(DEBUG)/rtcs"
+-L"$(DEBUG)/psp"
+-map
+-map closure
+-map keep
+-srec
+-sreclength 80 
+-l"bsp.a"
+-l"rtcs.a"
+-l"psp.a"

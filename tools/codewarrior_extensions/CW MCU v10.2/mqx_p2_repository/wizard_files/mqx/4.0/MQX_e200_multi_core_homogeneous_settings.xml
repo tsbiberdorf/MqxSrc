@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<wizardExtension>
+	<newProjectExtension>
+		<launchSettings>
+		
+			<settingsGroup id="MQX_e200_multi_core_homogeneous_settings" conditionId="mcu.mqxprojectwizard1.condition.pa.multiCore.homogeneous.mode">
+				
+				<applySetting id="com.freescale.cdt.debug.cw.CoreNameList" type="list" mode="append">
+					<listValue value="${CoreIdDbg}#0"/>
+					<listValue value="${CoreIdDbg}#1"/>
+				</applySetting>
+								
+			</settingsGroup>
+		</launchSettings>
+	</newProjectExtension>
+</wizardExtension>

@@ -1,0 +1,37 @@
+"./MFS Source/part_mgr_c.obj"
+"./MFS Source/mfs_write_c.obj"
+"./MFS Source/mfs_valdev_c.obj"
+"./MFS Source/mfs_time_c.obj"
+"./MFS Source/mfs_search_c.obj"
+"./MFS Source/mfs_rw_c.obj"
+"./MFS Source/mfs_rename_c.obj"
+"./MFS Source/mfs_read_c.obj"
+"./MFS Source/mfs_parse_c.obj"
+"./MFS Source/mfs_open_c.obj"
+"./MFS Source/mfs_misc_c.obj"
+"./MFS Source/mfs_lfn_c.obj"
+"./MFS Source/mfs_init_c.obj"
+"./MFS Source/mfs_handle_c.obj"
+"./MFS Source/mfs_format_c.obj"
+"./MFS Source/mfs_fat_c.obj"
+"./MFS Source/mfs_directory_c.obj"
+"./MFS Source/mfs_dir_entry_c.obj"
+"./MFS Source/mfs_delete_c.obj"
+"./MFS Source/mfs_data_sector_c.obj"
+"./MFS Source/mfs_create_c.obj"
+"./MFS Source/mfs_cluster_c.obj"
+"./MFS Source/mfs_attribute_c.obj"
+"./MFS Source/dir_read_c.obj"
+-proc cortex-m4
+-fp soft
+-little
+-msgstyle parseable
+-g3
+-thumb
+-interworking
+-nostdlib
+-L"$(MCUToolsBaseDirEnv)/ARM_EABI_Support/ewl/lib"
+-library
+-map
+-srec
+-sreclength 80

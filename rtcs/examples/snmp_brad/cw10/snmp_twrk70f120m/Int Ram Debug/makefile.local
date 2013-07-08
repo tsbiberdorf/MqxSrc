@@ -1,0 +1,16 @@
+################################################################################
+# These macros are used by makefiles and argument files.
+# When a space is included in the path and quotes (") cannot be used,
+# a _ESCAPE version of the macro is added that escapes the space with backslash (\).
+################################################################################
+
+export SNMP=C:/Freescale/Freescale_MQX_4_0/rtcs/examples/snmp
+export GNU_Make_Install_DirEnv=$(CWInstallLocationEnv)/gnu/bin
+export ProjDirPath=C:/Freescale/Freescale_MQX_4_0/rtcs/examples/snmp/cw10/snmp_twrk70f120m
+export EXAMPLES=C:/Freescale/Freescale_MQX_4_0/rtcs/examples
+export CWInstallLocationEnv=C:/Freescale/CW MCU v10.4
+export TWRK70F120M_CW10=C:/Freescale/Freescale_MQX_4_0/lib/twrk70f120m.cw10
+export MCUToolsBaseDirEnv=$(CWInstallLocationEnv)/MCU
+export BSP=C:/Freescale/Freescale_MQX_4_0/lib/twrk70f120m.cw10/debug/bsp
+export ARM_ToolsDirEnv=$(CWInstallLocationEnv)/MCU/ARM_Tools/Command_Line_Tools
+export DEBUG=C:/Freescale/Freescale_MQX_4_0/lib/twrk70f120m.cw10/debug

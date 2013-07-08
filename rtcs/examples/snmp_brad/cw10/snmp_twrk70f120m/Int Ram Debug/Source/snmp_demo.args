@@ -1,0 +1,47 @@
+-proc cortex-m4
+-fp vfpv4
+-little
+-msgstyle parseable
+-g3
+-thumb
+-interworking
+-lavender model=ewl ,print=int ,scan=int ,io=raw
+-cwd include
+-enc ascii
+-i
+"$(MCUToolsBaseDirEnv)/ProcessorExpert/lib/Kinetis/pdd/inc"
+-i
+"$(MCUToolsBaseDirEnv)/ARM_EABI_Support/ewl/EWL_C/include"
+-i
+"$(MCUToolsBaseDirEnv)/ProcessorExpert/lib/Kinetis/pdd/inc"
+-i
+"$(EXAMPLES)/snmp"
+-i
+"$(DEBUG)/rtcs"
+-i
+"$(DEBUG)/psp"
+-i
+"$(BSP)/Sources"
+-i
+"$(BSP)/Generated_Code"
+-i
+"$(DEBUG)/bsp"
+-i
+"$(TWRK70F120M_CW10)/debug"
+-w illpragmas
+-w possible
+-w missingreturn
+-w extracomma
+-w empty
+-opt space
+-inline on
+-generic_symbol_names off
+-sdata 8
+-lang c99
+-enum int
+-Cpp_Exceptions off
+-RTTI off
+-define _DEBUG=1
+-define _EWL_FLOATING_POINT=1
+-define __CWARM__=1
+-define __CODEWARRIOR__=1

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<APSC_Memento>
+<host>
+<properties>
+<property key="propertySet.[cw.dbg.ct.targetConnLost].RetryConnectionOn" value="false"/>
+<property key="propertySet.[cw.dbg.ct.bareboard].memConfigPath" value="${MQX_ROOT_DIR}\lib\m52259demo.cw10\dbg\m52259demo.mem"/>
+<property key="propertySet.[cw.dbg.ct].Connection Type" value="com.freescale.mcu.debug.connections.osbdm.cfvx"/>
+<property key="propertySet.[com.freescale.mcu.debug.connections.osbdm.cfvx].com.freescale.mcu.debug.connections.osbdm.cfvx.CommandLineArgs" value=""/>
+<property key="propertySet.[com.freescale.mcu.debug.connections.osbdm.cfvx].com.freescale.cdt.debug.cw.CW_SHADOWED_PREF.Embedded Initialization.simulator" value=""/>
+<property key="host.defaultEncoding" value=""/>
+<property key="propertySet.[cw.ide.settingscache].hidden.HostID" value="com.freescale.cdt.debug.cw.core.ui.rse.systemtype.bareboard.hardware.110228173448+0100"/>
+<property key="propertySet.[cw.dbg.ct.targetConnLost].RetryTimeout" value="20"/>
+<property key="propertySet.[cw.ide.settingscache].hidden.TimeStamp" value="1298910888838"/>
+<property key="propertySet.[cw.dbg.ct.bareboard].useMemoryConfigFile" value="true"/>
+<property key="host.description" value=""/>
+<property key="propertySet.[cw.dbg.ct.targetConnLost].retryPromptUserActionOn" value="true"/>
+<property key="propertySet.[cw.dbg.main].systemType" value="com.freescale.cw.system.coldfire.MCF5225X.MCF52259"/>
+<property key="propertySet.[cw.dbg.ct.bareboard].initPath" value="${MQX_ROOT_DIR}\lib\m52259demo.cw10\dbg\m52259demo.cfg"/>
+<property key="propertySet.[cw.dbg.ct.targetConnLost].RetryWithTimeoutOn" value="false"/>
+<property key="host.promptable" value="false"/>
+<property key="propertySet.[com.freescale.mcu.debug.connections.osbdm.cfvx].com.freescale.cdt.debug.cw.core.settings.GdiConnection.Common.PhysicalConnectionAttributeBase" value="com.freescale.mcu.debug.connections.osbdm.cfvx."/>
+<property key="propertySet.[OptionalPropertySet].enableConnectorServicesPropertyPage" value="false"/>
+<property key="propertySet.[cw.dbg.ct.targetConnLost].TerminateConnectionOn" value="false"/>
+<property key="propertySet.[cw.dbg.ct.bareboard].useInitFile" value="true"/>
+<property key="propertySet.[com.freescale.mcu.debug.connections.osbdm.cfvx].com.freescale.cdt.debug.cw.core.settings.GdiConnection.Common.SimulatorConnectionAttributeBase" value=""/>
+<property key="host.type" value="com.freescale.cdt.debug.cw.core.ui.rse.systemtype.bareboard.hardware"/>
+<property key="host.defaultUser" value=""/>
+<property key="propertySet.[cw.dbg.ct.bareboard.gdi].logData" value="false"/>
+<property key="propertySet.[OptionalPropertySet].enableGenericHostPropertyPage" value="false"/>
+<property key="propertySet.[cw.dbg.ct.bareboard].executeReset" value="true"/>
+<property key="propertySet.[com.freescale.mcu.debug.connections.osbdm.cfvx].com.freescale.mcu.debug.connections.osbdm.cfvx.ConfigFile" value=""/>
+<property key="host.name" value="M52259DEMO OSBDM"/>
+<property key="propertySet.[com.freescale.mcu.debug.connections.osbdm.cfvx].com.freescale.mcu.debug.connections.osbdm.cfvx.names_of_user_added_attributes" value=""/>
+<property key="host.address" value=""/>
+<property key="propertySet.[cw.dbg.ct.bareboard].runOutOfReset" value="false"/>
+<property key="propertySet.[com.freescale.mcu.debug.connections.osbdm.cfvx].com.freescale.mcu.debug.connections.osbdm.cfvx.Library" value="E_osbdm-jm60_gdi_cfv234"/>
+</properties>
+</host>
+</APSC_Memento>

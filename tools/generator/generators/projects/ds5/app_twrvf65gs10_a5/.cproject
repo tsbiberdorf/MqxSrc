@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.arm.eclipse.build.config.baremetal.exe.debug.893051445">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.arm.eclipse.build.config.baremetal.exe.debug.893051445" moduleId="org.eclipse.cdt.core.settings" name="DDR Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.arm.eclipse.builder.armcc.error" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="axf" artifactName="${ProjName}" buildArtefactType="com.arm.eclipse.build.artefact.baremetal.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=com.arm.eclipse.build.artefact.baremetal.exe" cleanCommand="clean" description="" id="com.arm.eclipse.build.config.baremetal.exe.debug.893051445" name="DDR Debug" parent="com.arm.eclipse.build.config.baremetal.exe.debug">
+					<folderInfo id="com.arm.eclipse.build.config.baremetal.exe.debug.893051445." name="/" resourcePath="">
+						<toolChain id="com.arm.toolchain.baremetal.exe.debug.1489350840" name="ARM Compiler" nonInternalBuilderId="com.arm.toolchain.baremetal.builder" superClass="com.arm.toolchain.baremetal.exe.debug">
+							<targetPlatform id="com.arm.eclipse.build.config.baremetal.exe.debug.893051445..694131562" name=""/>
+							<builder autoBuildTarget="all" buildPath="${workspace_loc:/app_twrvf65gs10_a5/DDR Debug}" cleanBuildTarget="clean" id="org.eclipse.cdt.build.core.internal.builder.531665376" incrementalBuildTarget="all" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="org.eclipse.cdt.build.core.internal.builder"/>
+							<tool command="armcc" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" id="com.arm.tool.c.compiler.baremetal.exe.debug.1501911384" name="ARM C Compiler" superClass="com.arm.tool.c.compiler.baremetal.exe.debug">
+								<option id="com.arm.tool.c.compiler.option.incpath.308889573" name="Include path (-I)" superClass="com.arm.tool.c.compiler.option.incpath"/>
+								<option id="com.arm.tool.c.compiler.option.defmac.365164935" name="Define macro (-D)" superClass="com.arm.tool.c.compiler.option.defmac"/>
+								<option id="com.arm.tool.c.compiler.option.targetcpu.1667254443" name="Target CPU (--cpu)" superClass="com.arm.tool.c.compiler.option.targetcpu" value="Cortex-A5.neon" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.targetfpu.41282086" name="Target FPU (--fpu)" superClass="com.arm.tool.c.compiler.option.targetfpu" value="vfpv4" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.fpmode.1744126954" name="Floating-point mode (--fpmode)" superClass="com.arm.tool.c.compiler.option.fpmode" value="com.arm.tool.c.compiler.option.fpmode.auto" valueType="enumerated"/>
+								<option id="com.arm.tool.c.compiler.option.fppcs.1112737610" name="Floating-point PCS (--apcs)" superClass="com.arm.tool.c.compiler.option.fppcs" value="com.arm.tool.c.compiler.option.fppcs.auto" valueType="enumerated"/>
+								<option id="com.arm.tool.c.compiler.option.flags.304562505" name="Other flags" superClass="com.arm.tool.c.compiler.option.flags" value="--c99 --split_sections" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.vector.1584116128" name="Vectorization (--vectorize)" superClass="com.arm.tool.c.compiler.option.vector" value="true" valueType="boolean"/>
+								<inputType id="com.arm.tool.c.compiler.input.905747706" superClass="com.arm.tool.c.compiler.input"/>
+								<inputType id="com.arm.tool.cpp.compiler.input.1411695198" superClass="com.arm.tool.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.arm.tool.cpp.compiler.baremetal.exe.debug.1730103326" name="ARM C++ Compiler" superClass="com.arm.tool.cpp.compiler.baremetal.exe.debug">
+								<option id="com.arm.tool.c.compiler.option.flags.382455750" name="Other flags" superClass="com.arm.tool.c.compiler.option.flags" value="--c99 --split_sections" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.targetfpu.1657106409" name="Target FPU (--fpu)" superClass="com.arm.tool.c.compiler.option.targetfpu" value="vfpv4" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.vector.1095616591" name="Vectorization (--vectorize)" superClass="com.arm.tool.c.compiler.option.vector" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.compiler.option.targetcpu.433649553" superClass="com.arm.tool.c.compiler.option.targetcpu" value="Cortex-A5.neon" valueType="string"/>
+							</tool>
+							<tool id="com.arm.tool.assembler.1595934606" name="ARM Assembler" superClass="com.arm.tool.assembler">
+								<option id="com.arm.tool.assembler.option.cpu.220910660" name="Target CPU (--cpu)" superClass="com.arm.tool.assembler.option.cpu" value="Cortex-A5.neon" valueType="string"/>
+								<option id="com.arm.tool.assembler.option.fpu.1867808677" name="Target FPU (--fpu)" superClass="com.arm.tool.assembler.option.fpu" value="vfpv4" valueType="string"/>
+								<option id="com.arm.tool.assembler.option.fpmode.1230363014" name="Floating-point mode (--fpmode)" superClass="com.arm.tool.assembler.option.fpmode" value="com.arm.tool.c.compiler.option.fpmode.auto" valueType="enumerated"/>
+								<option id="com.arm.tool.assembler.option.fppcs.1885819695" name="Floating-point PCS (--apcs)" superClass="com.arm.tool.assembler.option.fppcs" value="com.arm.tool.c.compiler.option.fppcs.auto" valueType="enumerated"/>
+								<option id="com.arm.tool.assembler.option.flags.162666802" name="Other flags" superClass="com.arm.tool.assembler.option.flags" value="" valueType="string"/>
+								<option id="com.arm.tool.assembler.option.preproc.664063760" name="Preprocess input before assembling (--cpreproc)" superClass="com.arm.tool.assembler.option.preproc" value="true" valueType="boolean"/>
+							</tool>
+							<tool id="com.arm.tool.c.linker.2117563616" name="ARM Linker" superClass="com.arm.tool.c.linker">
+								<option id="com.arm.tool.c.linker.option.cpu.570321710" name="Target CPU (--cpu)" superClass="com.arm.tool.c.linker.option.cpu" value="Cortex-A5.neon" valueType="string"/>
+								<option id="com.arm.tool.c.linker.option.scatter.1564907077" name="Scatter file (--scatter)" superClass="com.arm.tool.c.linker.option.scatter" value="" valueType="string"/>
+								<option id="com.arm.tool.c.linker.option.libs.493644921" name="Libraries (--library)" superClass="com.arm.tool.c.linker.option.libs"/>
+								<option id="com.arm.tool.c.linker.option.libsearch.253483115" name="Library search path (--userlibpath)" superClass="com.arm.tool.c.linker.option.libsearch"/>
+								<option id="com.arm.tool.c.linker.option.flags.1364492238" name="Other flags" superClass="com.arm.tool.c.linker.option.flags" value="--list mapfile.map" valueType="string"/>
+								<option id="com.arm.tool.c.linker.libs.892931713" name="Other library files" superClass="com.arm.tool.c.linker.libs"/>
+								<option id="com.arm.tool.c.linker.option.entry.1046384213" name="Image entry point (--entry)" superClass="com.arm.tool.c.linker.option.entry" value="__boot" valueType="string"/>
+								<option id="com.arm.tool.c.linker.option.imagemap.120208800" name="Generate image map (--map)" superClass="com.arm.tool.c.linker.option.imagemap" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.linker.option.syslibs.948170745" name="Standard library search path (--libpath)" superClass="com.arm.tool.c.linker.option.syslibs"/>
+								<option id="com.arm.tool.c.linker.option.keep.1039935686" name="Keep specific sections (--keep)" superClass="com.arm.tool.c.linker.option.keep"/>
+								<inputType id="com.arm.tool.c.linker.input.1014584033" superClass="com.arm.tool.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.arm.tool.librarian.1738450557" name="ARM Librarian" superClass="com.arm.tool.librarian"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.arm.eclipse.build.config.baremetal.exe.debug.893051445.50365946">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.arm.eclipse.build.config.baremetal.exe.debug.893051445.50365946" moduleId="org.eclipse.cdt.core.settings" name="DDR Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.arm.eclipse.builder.armcc.error" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="axf" artifactName="${ProjName}" buildArtefactType="com.arm.eclipse.build.artefact.baremetal.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=com.arm.eclipse.build.artefact.baremetal.exe" cleanCommand="clean" description="" id="com.arm.eclipse.build.config.baremetal.exe.debug.893051445.50365946" name="DDR Release" parent="com.arm.eclipse.build.config.baremetal.exe.debug">
+					<folderInfo id="com.arm.eclipse.build.config.baremetal.exe.debug.893051445.50365946." name="/" resourcePath="">
+						<toolChain id="com.arm.toolchain.baremetal.exe.debug.1702365282" name="ARM Compiler" nonInternalBuilderId="com.arm.toolchain.baremetal.builder" superClass="com.arm.toolchain.baremetal.exe.debug">
+							<targetPlatform id="com.arm.toolchain.baremetal.exe.debug.1702365282.1422446213" name=""/>
+							<builder autoBuildTarget="all" buildPath="${workspace_loc:/app_twrvf65gs10_a5/DDR Release}" cleanBuildTarget="clean" id="org.eclipse.cdt.build.core.internal.builder.2125217274" incrementalBuildTarget="all" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="org.eclipse.cdt.build.core.internal.builder"/>
+							<tool id="com.arm.tool.c.compiler.baremetal.exe.debug.227159324" name="ARM C Compiler" superClass="com.arm.tool.c.compiler.baremetal.exe.debug">
+								<option id="com.arm.tool.c.compiler.option.incpath.1841235030" name="Include path (-I)" superClass="com.arm.tool.c.compiler.option.incpath"/>
+								<option id="com.arm.tool.c.compiler.option.defmac.1524592102" name="Define macro (-D)" superClass="com.arm.tool.c.compiler.option.defmac"/>
+								<option id="com.arm.tool.c.compiler.option.targetcpu.996866772" name="Target CPU (--cpu)" superClass="com.arm.tool.c.compiler.option.targetcpu" value="Cortex-A5.neon" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.targetfpu.111389461" name="Target FPU (--fpu)" superClass="com.arm.tool.c.compiler.option.targetfpu" value="vfpv4" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.fpmode.1972796957" name="Floating-point mode (--fpmode)" superClass="com.arm.tool.c.compiler.option.fpmode" value="com.arm.tool.c.compiler.option.fpmode.auto" valueType="enumerated"/>
+								<option id="com.arm.tool.c.compiler.option.fppcs.1066220483" name="Floating-point PCS (--apcs)" superClass="com.arm.tool.c.compiler.option.fppcs" value="com.arm.tool.c.compiler.option.fppcs.auto" valueType="enumerated"/>
+								<option id="com.arm.tool.c.compiler.baremetal.exe.debug.option.opt.1321884607" name="Optimization level" superClass="com.arm.tool.c.compiler.baremetal.exe.debug.option.opt" value="com.arm.tool.c.compiler.option.optlevel.max" valueType="enumerated"/>
+								<option id="com.arm.tool.c.compiler.option.flags.1795168886" name="Other flags" superClass="com.arm.tool.c.compiler.option.flags" value="--c99 --split_sections" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.vector.1912555551" name="Vectorization (--vectorize)" superClass="com.arm.tool.c.compiler.option.vector" value="true" valueType="boolean"/>
+								<inputType id="com.arm.tool.c.compiler.input.1969033978" superClass="com.arm.tool.c.compiler.input"/>
+								<inputType id="com.arm.tool.cpp.compiler.input.1489249755" superClass="com.arm.tool.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.arm.tool.cpp.compiler.baremetal.exe.debug.69112239" name="ARM C++ Compiler" superClass="com.arm.tool.cpp.compiler.baremetal.exe.debug">
+								<option id="com.arm.tool.c.compiler.option.flags.1047903537" name="Other flags" superClass="com.arm.tool.c.compiler.option.flags" value="--c99 --split_sections" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.targetfpu.559110277" name="Target FPU (--fpu)" superClass="com.arm.tool.c.compiler.option.targetfpu" value="vfpv4" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.vector.1259837230" name="Vectorization (--vectorize)" superClass="com.arm.tool.c.compiler.option.vector" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.compiler.option.targetcpu.217881141" superClass="com.arm.tool.c.compiler.option.targetcpu" value="Cortex-A5.neon" valueType="string"/>
+							</tool>
+							<tool id="com.arm.tool.assembler.1869905304" name="ARM Assembler" superClass="com.arm.tool.assembler">
+								<option id="com.arm.tool.assembler.option.cpu.657209848" name="Target CPU (--cpu)" superClass="com.arm.tool.assembler.option.cpu" value="Cortex-A5.neon" valueType="string"/>
+								<option id="com.arm.tool.assembler.option.fpu.1472720434" name="Target FPU (--fpu)" superClass="com.arm.tool.assembler.option.fpu" value="vfpv4" valueType="string"/>
+								<option id="com.arm.tool.assembler.option.fpmode.968108547" name="Floating-point mode (--fpmode)" superClass="com.arm.tool.assembler.option.fpmode" value="com.arm.tool.c.compiler.option.fpmode.auto" valueType="enumerated"/>
+								<option id="com.arm.tool.assembler.option.fppcs.1320558554" name="Floating-point PCS (--apcs)" superClass="com.arm.tool.assembler.option.fppcs" value="com.arm.tool.c.compiler.option.fppcs.auto" valueType="enumerated"/>
+								<option id="com.arm.tool.assembler.option.flags.1383970076" name="Other flags" superClass="com.arm.tool.assembler.option.flags" value="" valueType="string"/>
+								<option id="com.arm.tool.assembler.option.preproc.664063761" name="Preprocess input before assembling (--cpreproc)" superClass="com.arm.tool.assembler.option.preproc" value="true" valueType="boolean"/>
+							</tool>
+							<tool id="com.arm.tool.c.linker.564204035" name="ARM Linker" superClass="com.arm.tool.c.linker">
+								<option id="com.arm.tool.c.linker.option.cpu.225984131" name="Target CPU (--cpu)" superClass="com.arm.tool.c.linker.option.cpu" value="Cortex-A5.neon" valueType="string"/>
+								<option id="com.arm.tool.c.linker.option.scatter.870802565" name="Scatter file (--scatter)" superClass="com.arm.tool.c.linker.option.scatter" value="" valueType="string"/>
+								<option id="com.arm.tool.c.linker.option.libs.1449285292" name="Libraries (--library)" superClass="com.arm.tool.c.linker.option.libs"/>
+								<option id="com.arm.tool.c.linker.option.libsearch.431218909" name="Library search path (--userlibpath)" superClass="com.arm.tool.c.linker.option.libsearch"/>
+								<option id="com.arm.tool.c.linker.option.flags.1404012036" name="Other flags" superClass="com.arm.tool.c.linker.option.flags" value="--list mapfile.map" valueType="string"/>
+								<option id="com.arm.tool.c.linker.libs.1177000380" name="Other library files" superClass="com.arm.tool.c.linker.libs"/>
+								<option id="com.arm.tool.c.linker.option.entry.991401805" name="Image entry point (--entry)" superClass="com.arm.tool.c.linker.option.entry" value="__boot" valueType="string"/>
+								<option id="com.arm.tool.c.linker.option.imagemap.1874098161" name="Generate image map (--map)" superClass="com.arm.tool.c.linker.option.imagemap" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.linker.option.syslibs.948170746" name="Standard library search path (--libpath)" superClass="com.arm.tool.c.linker.option.syslibs"/>
+								<option id="com.arm.tool.c.linker.option.keep.1039935687" name="Keep specific sections (--keep)" superClass="com.arm.tool.c.linker.option.keep"/>
+								<inputType id="com.arm.tool.c.linker.input.28320245" superClass="com.arm.tool.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.arm.tool.librarian.100244499" name="ARM Librarian" superClass="com.arm.tool.librarian"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.arm.eclipse.build.config.baremetal.exe.debug.893051445.648162549">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.arm.eclipse.build.config.baremetal.exe.debug.893051445.648162549" moduleId="org.eclipse.cdt.core.settings" name="Int Ram Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.arm.eclipse.builder.armcc.error" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="axf" artifactName="${ProjName}" buildArtefactType="com.arm.eclipse.build.artefact.baremetal.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=com.arm.eclipse.build.artefact.baremetal.exe" cleanCommand="clean" description="" id="com.arm.eclipse.build.config.baremetal.exe.debug.893051445.648162549" name="Int Ram Debug" parent="com.arm.eclipse.build.config.baremetal.exe.debug">
+					<folderInfo id="com.arm.eclipse.build.config.baremetal.exe.debug.893051445.648162549." name="/" resourcePath="">
+						<toolChain id="com.arm.toolchain.baremetal.exe.debug.649072417" name="ARM Compiler" nonInternalBuilderId="com.arm.toolchain.baremetal.builder" superClass="com.arm.toolchain.baremetal.exe.debug">
+							<targetPlatform id="com.arm.toolchain.baremetal.exe.debug.649072417.1705944769" name=""/>
+							<builder autoBuildTarget="all" buildPath="${workspace_loc:/app_twrvf65gs10_a5/Int Ram Debug}" cleanBuildTarget="clean" id="org.eclipse.cdt.build.core.internal.builder.1752433140" incrementalBuildTarget="all" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="org.eclipse.cdt.build.core.internal.builder"/>
+							<tool id="com.arm.tool.c.compiler.baremetal.exe.debug.164653255" name="ARM C Compiler" superClass="com.arm.tool.c.compiler.baremetal.exe.debug">
+								<option id="com.arm.tool.c.compiler.option.incpath.70595256" name="Include path (-I)" superClass="com.arm.tool.c.compiler.option.incpath"/>
+								<option id="com.arm.tool.c.compiler.option.defmac.91106698" name="Define macro (-D)" superClass="com.arm.tool.c.compiler.option.defmac"/>
+								<option id="com.arm.tool.c.compiler.option.targetcpu.118229593" name="Target CPU (--cpu)" superClass="com.arm.tool.c.compiler.option.targetcpu" value="Cortex-A5.neon" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.targetfpu.1169485263" name="Target FPU (--fpu)" superClass="com.arm.tool.c.compiler.option.targetfpu" value="vfpv4" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.fpmode.670189749" name="Floating-point mode (--fpmode)" superClass="com.arm.tool.c.compiler.option.fpmode" value="com.arm.tool.c.compiler.option.fpmode.auto" valueType="enumerated"/>
+								<option id="com.arm.tool.c.compiler.option.fppcs.989252520" name="Floating-point PCS (--apcs)" superClass="com.arm.tool.c.compiler.option.fppcs" value="com.arm.tool.c.compiler.option.fppcs.auto" valueType="enumerated"/>
+								<option id="com.arm.tool.c.compiler.option.flags.1410547807" name="Other flags" superClass="com.arm.tool.c.compiler.option.flags" value="--c99 --split_sections" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.vector.1917890697" name="Vectorization (--vectorize)" superClass="com.arm.tool.c.compiler.option.vector" value="true" valueType="boolean"/>
+								<inputType id="com.arm.tool.c.compiler.input.486006405" superClass="com.arm.tool.c.compiler.input"/>
+								<inputType id="com.arm.tool.cpp.compiler.input.1362287240" superClass="com.arm.tool.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.arm.tool.cpp.compiler.baremetal.exe.debug.1524089195" name="ARM C++ Compiler" superClass="com.arm.tool.cpp.compiler.baremetal.exe.debug">
+								<option id="com.arm.tool.c.compiler.option.flags.1253152899" name="Other flags" superClass="com.arm.tool.c.compiler.option.flags" value="--c99 --split_sections" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.targetfpu.320363136" name="Target FPU (--fpu)" superClass="com.arm.tool.c.compiler.option.targetfpu" value="vfpv4" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.vector.1516693428" name="Vectorization (--vectorize)" superClass="com.arm.tool.c.compiler.option.vector" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.compiler.option.targetcpu.700383566" superClass="com.arm.tool.c.compiler.option.targetcpu" value="Cortex-A5.neon" valueType="string"/>
+							</tool>
+							<tool id="com.arm.tool.assembler.564344150" name="ARM Assembler" superClass="com.arm.tool.assembler">
+								<option id="com.arm.tool.assembler.option.cpu.994726879" name="Target CPU (--cpu)" superClass="com.arm.tool.assembler.option.cpu" value="Cortex-A5.neon" valueType="string"/>
+								<option id="com.arm.tool.assembler.option.fpu.1010374262" name="Target FPU (--fpu)" superClass="com.arm.tool.assembler.option.fpu" value="vfpv4" valueType="string"/>
+								<option id="com.arm.tool.assembler.option.fpmode.136897148" name="Floating-point mode (--fpmode)" superClass="com.arm.tool.assembler.option.fpmode" value="com.arm.tool.c.compiler.option.fpmode.auto" valueType="enumerated"/>
+								<option id="com.arm.tool.assembler.option.fppcs.1679186906" name="Floating-point PCS (--apcs)" superClass="com.arm.tool.assembler.option.fppcs" value="com.arm.tool.c.compiler.option.fppcs.auto" valueType="enumerated"/>
+								<option id="com.arm.tool.assembler.option.flags.1979271257" name="Other flags" superClass="com.arm.tool.assembler.option.flags" value="" valueType="string"/>
+								<option id="com.arm.tool.assembler.option.preproc.664063762" name="Preprocess input before assembling (--cpreproc)" superClass="com.arm.tool.assembler.option.preproc" value="true" valueType="boolean"/>
+							</tool>
+							<tool id="com.arm.tool.c.linker.1832188613" name="ARM Linker" superClass="com.arm.tool.c.linker">
+								<option id="com.arm.tool.c.linker.option.cpu.197083056" name="Target CPU (--cpu)" superClass="com.arm.tool.c.linker.option.cpu" value="Cortex-A5.neon" valueType="string"/>
+								<option id="com.arm.tool.c.linker.option.scatter.338590929" name="Scatter file (--scatter)" superClass="com.arm.tool.c.linker.option.scatter" value="" valueType="string"/>
+								<option id="com.arm.tool.c.linker.option.libs.946999397" name="Libraries (--library)" superClass="com.arm.tool.c.linker.option.libs"/>
+								<option id="com.arm.tool.c.linker.option.libsearch.404575233" name="Library search path (--userlibpath)" superClass="com.arm.tool.c.linker.option.libsearch"/>
+								<option id="com.arm.tool.c.linker.option.flags.52169710" name="Other flags" superClass="com.arm.tool.c.linker.option.flags" value="--list mapfile.map" valueType="string"/>
+								<option id="com.arm.tool.c.linker.libs.563607476" name="Other library files" superClass="com.arm.tool.c.linker.libs"/>
+								<option id="com.arm.tool.c.linker.option.entry.1668004516" name="Image entry point (--entry)" superClass="com.arm.tool.c.linker.option.entry" value="__boot" valueType="string"/>
+								<option id="com.arm.tool.c.linker.option.imagemap.1223308957" name="Generate image map (--map)" superClass="com.arm.tool.c.linker.option.imagemap" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.linker.option.syslibs.948170747" name="Standard library search path (--libpath)" superClass="com.arm.tool.c.linker.option.syslibs"/>
+								<option id="com.arm.tool.c.linker.option.keep.1039935688" name="Keep specific sections (--keep)" superClass="com.arm.tool.c.linker.option.keep"/>
+								<inputType id="com.arm.tool.c.linker.input.1982051715" superClass="com.arm.tool.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.arm.tool.librarian.936900550" name="ARM Librarian" superClass="com.arm.tool.librarian"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.arm.eclipse.build.config.baremetal.exe.debug.893051445.1343175462">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.arm.eclipse.build.config.baremetal.exe.debug.893051445.1343175462" moduleId="org.eclipse.cdt.core.settings" name="Int Ram Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.arm.eclipse.builder.armcc.error" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="axf" artifactName="${ProjName}" buildArtefactType="com.arm.eclipse.build.artefact.baremetal.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=com.arm.eclipse.build.artefact.baremetal.exe" cleanCommand="clean" description="" id="com.arm.eclipse.build.config.baremetal.exe.debug.893051445.1343175462" name="Int Ram Release" parent="com.arm.eclipse.build.config.baremetal.exe.debug">
+					<folderInfo id="com.arm.eclipse.build.config.baremetal.exe.debug.893051445.1343175462." name="/" resourcePath="">
+						<toolChain id="com.arm.toolchain.baremetal.exe.debug.222543427" name="ARM Compiler" nonInternalBuilderId="com.arm.toolchain.baremetal.builder" superClass="com.arm.toolchain.baremetal.exe.debug">
+							<targetPlatform id="com.arm.toolchain.baremetal.exe.debug.222543427.1321450981" name=""/>
+							<builder autoBuildTarget="all" buildPath="${workspace_loc:/app_twrvf65gs10_a5/Int Ram Release}" cleanBuildTarget="clean" id="org.eclipse.cdt.build.core.internal.builder.114428327" incrementalBuildTarget="all" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="org.eclipse.cdt.build.core.internal.builder"/>
+							<tool command="armcc" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" id="com.arm.tool.c.compiler.baremetal.exe.debug.580693253" name="ARM C Compiler" superClass="com.arm.tool.c.compiler.baremetal.exe.debug">
+								<option id="com.arm.tool.c.compiler.option.incpath.1390322102" name="Include path (-I)" superClass="com.arm.tool.c.compiler.option.incpath"/>
+								<option id="com.arm.tool.c.compiler.option.defmac.1432130041" name="Define macro (-D)" superClass="com.arm.tool.c.compiler.option.defmac"/>
+								<option id="com.arm.tool.c.compiler.option.targetcpu.901726768" name="Target CPU (--cpu)" superClass="com.arm.tool.c.compiler.option.targetcpu" value="Cortex-A5.neon" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.targetfpu.590450349" name="Target FPU (--fpu)" superClass="com.arm.tool.c.compiler.option.targetfpu" value="vfpv4" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.fpmode.1542270321" name="Floating-point mode (--fpmode)" superClass="com.arm.tool.c.compiler.option.fpmode" value="com.arm.tool.c.compiler.option.fpmode.auto" valueType="enumerated"/>
+								<option id="com.arm.tool.c.compiler.option.fppcs.1001401505" name="Floating-point PCS (--apcs)" superClass="com.arm.tool.c.compiler.option.fppcs" value="com.arm.tool.c.compiler.option.fppcs.auto" valueType="enumerated"/>
+								<option id="com.arm.tool.c.compiler.option.flags.1361973765" name="Other flags" superClass="com.arm.tool.c.compiler.option.flags" value="--c99 --split_sections" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.vector.2005672742" name="Vectorization (--vectorize)" superClass="com.arm.tool.c.compiler.option.vector" value="true" valueType="boolean"/>
+								<inputType id="com.arm.tool.c.compiler.input.1677059185" superClass="com.arm.tool.c.compiler.input"/>
+								<inputType id="com.arm.tool.cpp.compiler.input.282816972" superClass="com.arm.tool.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.arm.tool.cpp.compiler.baremetal.exe.debug.479891419" name="ARM C++ Compiler" superClass="com.arm.tool.cpp.compiler.baremetal.exe.debug">
+								<option id="com.arm.tool.c.compiler.option.flags.1367436910" name="Other flags" superClass="com.arm.tool.c.compiler.option.flags" value="--c99 --split_sections" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.targetfpu.1268281893" name="Target FPU (--fpu)" superClass="com.arm.tool.c.compiler.option.targetfpu" value="vfpv4" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.vector.337077511" name="Vectorization (--vectorize)" superClass="com.arm.tool.c.compiler.option.vector" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.compiler.option.targetcpu.1453499471" superClass="com.arm.tool.c.compiler.option.targetcpu" value="Cortex-A5.neon" valueType="string"/>
+							</tool>
+							<tool id="com.arm.tool.assembler.1145614447" name="ARM Assembler" superClass="com.arm.tool.assembler">
+								<option id="com.arm.tool.assembler.option.cpu.291902465" name="Target CPU (--cpu)" superClass="com.arm.tool.assembler.option.cpu" value="Cortex-A5.neon" valueType="string"/>
+								<option id="com.arm.tool.assembler.option.fpu.832790780" name="Target FPU (--fpu)" superClass="com.arm.tool.assembler.option.fpu" value="vfpv4" valueType="string"/>
+								<option id="com.arm.tool.assembler.option.fpmode.2043593080" name="Floating-point mode (--fpmode)" superClass="com.arm.tool.assembler.option.fpmode" value="com.arm.tool.c.compiler.option.fpmode.auto" valueType="enumerated"/>
+								<option id="com.arm.tool.assembler.option.fppcs.1124261017" name="Floating-point PCS (--apcs)" superClass="com.arm.tool.assembler.option.fppcs" value="com.arm.tool.c.compiler.option.fppcs.auto" valueType="enumerated"/>
+								<option id="com.arm.tool.assembler.option.flags.308074711" name="Other flags" superClass="com.arm.tool.assembler.option.flags" value="" valueType="string"/>
+								<option id="com.arm.tool.assembler.option.preproc.449058685" name="Preprocess input before assembling (--cpreproc)" superClass="com.arm.tool.assembler.option.preproc" value="true" valueType="boolean"/>
+							</tool>
+							<tool id="com.arm.tool.c.linker.66462265" name="ARM Linker" superClass="com.arm.tool.c.linker">
+								<option id="com.arm.tool.c.linker.option.cpu.1148215154" name="Target CPU (--cpu)" superClass="com.arm.tool.c.linker.option.cpu" value="Cortex-A5.neon" valueType="string"/>
+								<option id="com.arm.tool.c.linker.option.scatter.287899665" name="Scatter file (--scatter)" superClass="com.arm.tool.c.linker.option.scatter" value="" valueType="string"/>
+								<option id="com.arm.tool.c.linker.option.libs.809415000" name="Libraries (--library)" superClass="com.arm.tool.c.linker.option.libs"/>
+								<option id="com.arm.tool.c.linker.option.libsearch.1641749420" name="Library search path (--userlibpath)" superClass="com.arm.tool.c.linker.option.libsearch"/>
+								<option id="com.arm.tool.c.linker.option.flags.1423613990" name="Other flags" superClass="com.arm.tool.c.linker.option.flags" value="--list mapfile.map" valueType="string"/>
+								<option id="com.arm.tool.c.linker.libs.1361742102" name="Other library files" superClass="com.arm.tool.c.linker.libs"/>
+								<option id="com.arm.tool.c.linker.option.entry.953983317" name="Image entry point (--entry)" superClass="com.arm.tool.c.linker.option.entry" value="__boot" valueType="string"/>
+								<option id="com.arm.tool.c.linker.option.imagemap.1879900546" name="Generate image map (--map)" superClass="com.arm.tool.c.linker.option.imagemap" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.linker.option.syslibs.1926776603" name="Standard library search path (--libpath)" superClass="com.arm.tool.c.linker.option.syslibs"/>
+								<option id="com.arm.tool.c.linker.option.keep.1965363575" name="Keep specific sections (--keep)" superClass="com.arm.tool.c.linker.option.keep"/>
+								<inputType id="com.arm.tool.c.linker.input.27460263" superClass="com.arm.tool.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.arm.tool.librarian.2098978934" name="ARM Librarian" superClass="com.arm.tool.librarian"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="com.arm.eclipse.build.project.baremetal.exe.1023008919" name="Bare-metal Executable" projectType="com.arm.eclipse.build.project.baremetal.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.arm.eclipse.build.config.baremetal.exe.debug.893051445;com.arm.eclipse.build.config.baremetal.exe.debug.893051445.;com.arm.tool.c.compiler.baremetal.exe.debug.1501911384;com.arm.tool.c.compiler.input.905747706">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.arm.eclipse.builder.armcc.ARMCompilerDiscoveryProfile"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cproject>

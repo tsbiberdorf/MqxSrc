@@ -1,0 +1,125 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <TITLE>MQX Code Size Report </TITLE>
+<style type="text/css">
+body{
+ padding: 0px;
+ margin: 30px;
+ background-color: #FFF;
+ font-family: Arial,Helvetica Neue, Helvetica,  sans-serif;
+ font-size: 8pt;
+ font-weight: normal;
+ color: #51626F;
+}
+.reportname {
+ font-size: 20pt;
+ font-weight: bold;
+}
+td {
+ font-size: 9pt;
+ vertical-align: bottom;
+}
+.legalese {
+ font-size: 7pt;
+}
+</style>
+</HEAD>
+<BODY>
+<TABLE CELLSPACING=0 CELLPADDING=0 WIDTH="1000">
+<TR><TD WIDTH="100%" class="reportname">
+<CENTER>MQX Code Size Report
+</CENTER></TD></TR></TABLE>
+<BR><BR><TABLE CELLSPACING=0 CELLPADDING=3><TR><TD><B> Name </B></TD><TD>twrk60n512</TD><TD>twrk60n512</TD><TD>twrk60n512</TD><TD>twrk60n512</TD><TD>twrk60n512</TD><TD>twrk60n512</TD><TD>twrk60n512</TD><TD>twrk60n512</TD><TD>twrk60n512</TD><TD>twrk60n512</TD></TR>
+<TR><TD><B> Kernel configutation </B></TD><TD>small kernel</TD><TD>small kernel</TD><TD>small kernel</TD><TD>small kernel</TD><TD>typical kernel</TD><TD>typical kernel</TD><TD>typical kernel</TD><TD>maximum kernel</TD><TD>maximum kernel</TD><TD>maximum kernel</TD></TR>
+<TR><TD><B> Application Profile </B></TD><TD>TINIEST app</TD><TD>SMALL app</TD><TD>TYPICAL app</TD><TD>MAX app</TD><TD>SMALL app</TD><TD>TYPICAL app</TD><TD>MAX app</TD><TD>SMALL app</TD><TD>TYPICAL app</TD><TD>MAX app</TD></TR>
+<TR><TD><B> Compiler </B></TD><TD>iararm6</TD><TD>iararm6</TD><TD>iararm6</TD><TD>iararm6</TD><TD>iararm6</TD><TD>iararm6</TD><TD>iararm6</TD><TD>iararm6</TD><TD>iararm6</TD><TD>iararm6</TD></TR>
+<TR><TD><HR>
+<B> MQX Core Components Code (ROM) </B></TD><TD></TD></TR>
+<TR><TD>MQX Core Code</TD><TD>450</TD><TD>462</TD><TD>518</TD><TD>638</TD><TD>612</TD><TD>744</TD><TD>872</TD><TD>846</TD><TD>978</TD><TD>1244</TD></TR>
+<TR><TD>MQX String Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>122</TD><TD>122</TD><TD>122</TD><TD>122</TD><TD>122</TD><TD>122</TD></TR>
+<TR><TD>MQX Scheduler Code</TD><TD>-</TD><TD>42</TD><TD>80</TD><TD>102</TD><TD>214</TD><TD>252</TD><TD>656</TD><TD>680</TD><TD>680</TD><TD>1388</TD></TR>
+<TR><TD>Interrupt Management Code</TD><TD>260</TD><TD>260</TD><TD>310</TD><TD>700</TD><TD>482</TD><TD>564</TD><TD>794</TD><TD>612</TD><TD>612</TD><TD>1388</TD></TR>
+<TR><TD>Lightweight Memory Manager Code</TD><TD>692</TD><TD>692</TD><TD>792</TD><TD>1092</TD><TD>912</TD><TD>912</TD><TD>1294</TD><TD>808</TD><TD>1066</TD><TD>1880</TD></TR>
+<TR><TD>Lightweight Semaphore Code</TD><TD>352</TD><TD>352</TD><TD>554</TD><TD>798</TD><TD>434</TD><TD>666</TD><TD>952</TD><TD>1202</TD><TD>1784</TD><TD>2508</TD></TR>
+<TR><TD>Memory Manager Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>96</TD><TD>2852</TD><TD>2852</TD><TD>5692</TD></TR>
+<TR><TD>Processor Support Code</TD><TD>138</TD><TD>206</TD><TD>714</TD><TD>3002</TD><TD>612</TD><TD>786</TD><TD>3002</TD><TD>786</TD><TD>786</TD><TD>3002</TD></TR>
+<TR><TD>Queue Management Code</TD><TD>158</TD><TD>158</TD><TD>172</TD><TD>324</TD><TD>158</TD><TD>172</TD><TD>324</TD><TD>158</TD><TD>172</TD><TD>324</TD></TR>
+<TR><TD>Task Management Code</TD><TD>606</TD><TD>606</TD><TD>1280</TD><TD>1784</TD><TD>1002</TD><TD>1514</TD><TD>3104</TD><TD>2298</TD><TD>2298</TD><TD>5496</TD></TR>
+<TR><TD>Time Management Code</TD><TD>226</TD><TD>444</TD><TD>1852</TD><TD>5548</TD><TD>2098</TD><TD>3796</TD><TD>8364</TD><TD>4768</TD><TD>5578</TD><TD>10966</TD></TR>
+<TR><TD>Task Queues Component Code</TD><TD>-</TD><TD>204</TD><TD>208</TD><TD>500</TD><TD>284</TD><TD>316</TD><TD>688</TD><TD>1398</TD><TD>1430</TD><TD>2134</TD></TR>
+<TR><TD><B> MQX Optional Components </B></TD><TD></TD></TR>
+<TR><TD>Event Component Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>1126</TD><TD>1640</TD><TD>2272</TD><TD>2694</TD><TD>4088</TD><TD>5828</TD></TR>
+<TR><TD>Idle Task Code</TD><TD>68</TD><TD>68</TD><TD>68</TD><TD>68</TD><TD>68</TD><TD>68</TD><TD>68</TD><TD>68</TD><TD>68</TD><TD>68</TD></TR>
+<TR><TD>I/O Subsystem Code</TD><TD>260</TD><TD>338</TD><TD>5064</TD><TD>5430</TD><TD>588</TD><TD>5340</TD><TD>5716</TD><TD>616</TD><TD>7388</TD><TD>7828</TD></TR>
+<TR><TD>Kernel Log Component Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>598</TD><TD>598</TD><TD>3682</TD></TR>
+<TR><TD>Lightweight Event Component Code</TD><TD>-</TD><TD>486</TD><TD>486</TD><TD>622</TD><TD>582</TD><TD>582</TD><TD>846</TD><TD>1282</TD><TD>1282</TD><TD>2036</TD></TR>
+<TR><TD>Lightweight Log Component Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>788</TD><TD>988</TD><TD>1254</TD><TD>844</TD><TD>1052</TD><TD>1322</TD></TR>
+<TR><TD>Lightweight Message Component Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>658</TD><TD>658</TD><TD>658</TD><TD>1312</TD><TD>1312</TD><TD>1312</TD></TR>
+<TR><TD>Lightweight Timer Component Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>496</TD><TD>496</TD><TD>1096</TD></TR>
+<TR><TD>Log Component Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>1050</TD><TD>1252</TD><TD>1606</TD></TR>
+<TR><TD>Message Component Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>2486</TD><TD>2486</TD><TD>4160</TD><TD>3754</TD><TD>3754</TD><TD>7978</TD></TR>
+<TR><TD>Mutex Component Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>742</TD><TD>916</TD><TD>1398</TD><TD>1954</TD><TD>2608</TD><TD>3846</TD></TR>
+<TR><TD>Semaphore Component Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>2600</TD><TD>3374</TD><TD>5456</TD></TR>
+<TR><TD>Name Component Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>418</TD><TD>1114</TD><TD>1522</TD><TD>744</TD><TD>1716</TD><TD>2154</TD></TR>
+<TR><TD>Partition Component Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>834</TD><TD>898</TD><TD>1602</TD><TD>1466</TD><TD>1754</TD><TD>3232</TD></TR>
+<TR><TD>Command-line TAD Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD></TR>
+<TR><TD>MPU Support Code</TD><TD>10</TD><TD>10</TD><TD>10</TD><TD>10</TD><TD>10</TD><TD>10</TD><TD>10</TD><TD>10</TD><TD>10</TD><TD>10</TD></TR>
+<TR><TD>Other PSP Code</TD><TD>152</TD><TD>152</TD><TD>684</TD><TD>684</TD><TD>698</TD><TD>698</TD><TD>698</TD><TD>700</TD><TD>1930</TD><TD>2186</TD></TR>
+<TR><TD><B> Total of MQX PSP Code </B></TD><TD>3372</TD><TD>4480</TD><TD>12792</TD><TD>21302</TD><TD>15928</TD><TD>25242</TD><TD>40472</TD><TD>36718</TD><TD>51040</TD><TD>85784</TD></TR>
+<TR><TD><HR>
+<B> MQX BSP Code (ROM) </B></TD><TD></TD></TR>
+<TR><TD>BSP Vector Table</TD><TD>1041</TD><TD>1041</TD><TD>1041</TD><TD>1041</TD><TD>1041</TD><TD>1041</TD><TD>1041</TD><TD>1041</TD><TD>1041</TD><TD>1041</TD></TR>
+<TR><TD>BSP Bootstrap Loader Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD></TR>
+<TR><TD>Board Initialization Code</TD><TD>540</TD><TD>540</TD><TD>540</TD><TD>540</TD><TD>612</TD><TD>612</TD><TD>612</TD><TD>846</TD><TD>846</TD><TD>846</TD></TR>
+<TR><TD>BSP Interrupt Management Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD></TR>
+<TR><TD>Clock Management Code</TD><TD>1772</TD><TD>1772</TD><TD>1772</TD><TD>1772</TD><TD>1772</TD><TD>1772</TD><TD>1772</TD><TD>1772</TD><TD>1772</TD><TD>1772</TD></TR>
+<TR><TD>Low Power Management Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD></TR>
+<TR><TD>A/D Driver Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>5924</TD><TD>5924</TD><TD>5924</TD><TD>5924</TD><TD>5924</TD><TD>5924</TD></TR>
+<TR><TD>APC Flash Driver Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>1912</TD><TD>1912</TD><TD>1912</TD><TD>1912</TD><TD>1912</TD><TD>1912</TD></TR>
+<TR><TD>Ethernet Driver Code</TD><TD>-</TD><TD>-</TD><TD>626</TD><TD>626</TD><TD>-</TD><TD>646</TD><TD>646</TD><TD>-</TD><TD>646</TD><TD>646</TD></TR>
+<TR><TD>Ethernet Phy Driver  Code</TD><TD>-</TD><TD>-</TD><TD>376</TD><TD>376</TD><TD>-</TD><TD>376</TD><TD>376</TD><TD>-</TD><TD>376</TD><TD>376</TD></TR>
+<TR><TD>Ethernet FEC Driver Code</TD><TD>-</TD><TD>-</TD><TD>3544</TD><TD>3544</TD><TD>-</TD><TD>3604</TD><TD>3604</TD><TD>-</TD><TD>3604</TD><TD>3604</TD></TR>
+<TR><TD>NAND Flash Driver Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD></TR>
+<TR><TD>FLASH Driver Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>4046</TD><TD>4046</TD><TD>4046</TD></TR>
+<TR><TD>GPIO Driver Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD></TR>
+<TR><TD>I2C Driver Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>4210</TD><TD>4210</TD><TD>4210</TD><TD>4210</TD><TD>4210</TD><TD>4210</TD></TR>
+<TR><TD>PC-Card Driver Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>398</TD><TD>398</TD><TD>398</TD><TD>398</TD><TD>398</TD><TD>398</TD></TR>
+<TR><TD>Real Time Clock Driver Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>836</TD><TD>852</TD><TD>1050</TD></TR>
+<TR><TD>Serial Port Driver Code</TD><TD>44</TD><TD>44</TD><TD>44</TD><TD>44</TD><TD>44</TD><TD>44</TD><TD>44</TD><TD>4138</TD><TD>4138</TD><TD>4138</TD></TR>
+<TR><TD>SPI Driver Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>1568</TD><TD>1568</TD><TD>1568</TD><TD>1568</TD><TD>1568</TD><TD>1568</TD></TR>
+<TR><TD>FlexCan Driver Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD></TR>
+<TR><TD>msCan Driver Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD></TR>
+<TR><TD>Display Driver Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD></TR>
+<TR><TD>DIU Driver Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD></TR>
+<TR><TD>Trivial File System Code</TD><TD>-</TD><TD>-</TD><TD>788</TD><TD>788</TD><TD>-</TD><TD>796</TD><TD>796</TD><TD>-</TD><TD>796</TD><TD>796</TD></TR>
+<TR><TD>Timer Driver Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD></TR>
+<TR><TD>SD Card Driver Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD></TR>
+<TR><TD>eSDHC Driver Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>2388</TD><TD>2388</TD><TD>2388</TD></TR>
+<TR><TD>Other BSP Code</TD><TD>742</TD><TD>742</TD><TD>850</TD><TD>850</TD><TD>2414</TD><TD>2522</TD><TD>2522</TD><TD>3422</TD><TD>3510</TD><TD>3510</TD></TR>
+<TR><TD><B> Total of BSP Code </B></TD><TD>4139</TD><TD>4139</TD><TD>9581</TD><TD>9581</TD><TD>19895</TD><TD>25425</TD><TD>25425</TD><TD>32501</TD><TD>38027</TD><TD>38225</TD></TR>
+<TR><TD><HR>
+<B> Summary of MQX Libraries Code (ROM) </B></TD><TD></TD></TR>
+<TR><TD>Total of MQX PSP Code</TD><TD>3372</TD><TD>4480</TD><TD>12792</TD><TD>21302</TD><TD>15928</TD><TD>25242</TD><TD>40472</TD><TD>36718</TD><TD>51040</TD><TD>85784</TD></TR>
+<TR><TD>Total of BSP Code</TD><TD>4139</TD><TD>4139</TD><TD>9581</TD><TD>9581</TD><TD>19895</TD><TD>25425</TD><TD>25425</TD><TD>32501</TD><TD>38027</TD><TD>38225</TD></TR>
+<TR><TD>Total of MFS Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD></TR>
+<TR><TD>Total of RTCS Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD></TR>
+<TR><TD>Total of USB Host Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD></TR>
+<TR><TD>Total of USB Device Data</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD></TR>
+<TR><TD>Total of Shell Code</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD></TR>
+<TR><TD><B> System Libraries Code (ROM) </B></TD><TD></TD></TR>
+<TR><TD>System Library Code (MSL/EWL...)</TD><TD>124</TD><TD>124</TD><TD>124</TD><TD>166</TD><TD>542</TD><TD>542</TD><TD>542</TD><TD>538</TD><TD>2846</TD><TD>2846</TD></TR>
+<TR><TD><B> User Application-related Code (ROM) </B></TD><TD></TD></TR>
+<TR><TD>Application-specific Code</TD><TD>414</TD><TD>566</TD><TD>974</TD><TD>1914</TD><TD>1042</TD><TD>1676</TD><TD>3406</TD><TD>1350</TD><TD>2082</TD><TD>4200</TD></TR>
+<TR><TD><HR>
+<B> Overall Total </B></TD><TD></TD></TR>
+<TR><TD>All ROM Code and Initialized Data sections</TD><TD>8049</TD><TD>9309</TD><TD>23471</TD><TD>32963</TD><TD>37407</TD><TD>52885</TD><TD>69845</TD><TD>71107</TD><TD>93995</TD><TD>131055</TD></TR>
+</TD></TR></TABLE>
+<BR><TABLE CELLSPACING=0 CELLPADDING=0 WIDTH="1000" ><hr><TR><TD class="legalese">
+<BR>(c) 2008-2012 Freescale Semiconductor. All rights reserved.
+Confidential Information. No part of this document may be
+copied or reproduced in any form or by any means without prior written
+consent of Freescale Semiconductor. Freescale MQX is a trademark
+of Freescale Semiconductor. All other trademarks are property
+of their respective owners. Generated by codesize reporter v3.8.1
+</TD></TR></TABLE></BODY></HTML>

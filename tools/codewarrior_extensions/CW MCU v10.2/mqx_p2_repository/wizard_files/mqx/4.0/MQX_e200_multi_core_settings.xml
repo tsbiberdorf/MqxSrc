@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<wizardExtension>
+	<newProjectExtension>
+		<launchSettings>
+		
+			<settingsGroup id="MQX_e200_multi_core_settings">
+				
+				<applySetting id="com.freescale.cdt.debug.cw.CW_SHADOWED_PREF.Embedded Initialization.smp" value="true" type="boolean"/>
+				
+				<applySetting id="com.freescale.cdt.debug.cw.SMPCores" type="list" mode="append">
+					<listValue value="0"/>
+					<listValue value="1"/>
+				</applySetting>
+				
+				<applySetting id="com.freescale.cdt.debug.cw.CW_SHADOWED_PREF.Embedded Initialization.useMemoryConfigFile" value="true" type="boolean"/>
+				<applySetting id="com.freescale.cdt.debug.cw.CW_SHADOWED_PREF.Embedded Initialization.memConfigPath" value="${MQX_ROOT_DIR}/lib/${BoardName}.cw10/dbg/${Mqx_MemFileName}" type="string"/>
+				
+			</settingsGroup>
+		</launchSettings>
+	</newProjectExtension>
+</wizardExtension>

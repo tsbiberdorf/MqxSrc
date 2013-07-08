@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<APSC_Memento>
+<host>
+<properties>
+<property key="propertySet.[cw.dbg.ct.targetConnLost].RetryConnectionOn" value="false"/>
+<property key="propertySet.[cw.dbg.ct.bareboard].memConfigPath" value="${MQX_ROOT_DIR}\lib\twrmcf51cn.cw10\dbg\twrmcf51cn.mem"/>
+<property key="propertySet.[cw.ide.settingscache].hidden.HostID" value="com.freescale.cdt.debug.cw.core.ui.rse.systemtype.bareboard.hardware.110301162248+0100"/>
+<property key="propertySet.[cw.dbg.ct.targetConnLost].RetryTimeout" value="20"/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv1].com.pemicro.mcu.debug.connections.pne.cfv1.STARTUP_CyclonePro_PowerDownDelay" value="250"/>
+<property key="propertySet.[cw.dbg.ct.bareboard].useMemoryConfigFile" value="true"/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv1].com.pemicro.mcu.debug.connections.pne.cfv1.STARTUP_SPECIFY_IP" value="127.0.0.1"/>
+<property key="propertySet.[cw.dbg.ct.targetConnLost].retryPromptUserActionOn" value="true"/>
+<property key="propertySet.[cw.dbg.main].systemType" value="com.freescale.cw.system.coldfire.MCF51CN.MCF51CN128"/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv1].com.pemicro.mcu.debug.connections.pne.cfv1.STARTUP_CyclonePro_PowerUpDelay" value="250"/>
+<property key="host.promptable" value="false"/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv1].com.pemicro.mcu.debug.connections.pne.cfv1.STARTUP_USE_CYCLONEPRO_RELAYS" value="1"/>
+<property key="propertySet.[OptionalPropertySet].enableConnectorServicesPropertyPage" value="false"/>
+<property key="propertySet.[cw.dbg.ct.bareboard].useInitFile" value="true"/>
+<property key="host.type" value="com.freescale.cdt.debug.cw.core.ui.rse.systemtype.bareboard.hardware"/>
+<property key="propertySet.[com.freescale.mcu.debug.connections.osbdm.cfv1].com.freescale.mcu.debug.connections.osbdm.cfv1.Library" value="E_osbdm-jm60_gdi_cfv1"/>
+<property key="host.defaultUser" value=""/>
+<property key="propertySet.[com.freescale.mcu.debug.connections.osbdm.cfv1].com.freescale.cdt.debug.cw.core.settings.GdiConnection.Common.PhysicalConnectionAttributeBase" value="com.freescale.mcu.debug.connections.osbdm.cfv1."/>
+<property key="propertySet.[cw.dbg.ct.bareboard.gdi].logData" value="false"/>
+<property key="propertySet.[cw.dbg.ct.bareboard].executeReset" value="true"/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv1].com.pemicro.mcu.debug.connections.pne.cfv1.STARTUP_SPECIFY_NETWORKCARD" value="127.0.0.1"/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv1].com.pemicro.mcu.debug.connections.pne.cfv1.STARTUP_SPECIFY_IP_ENABLED" value="0"/>
+<property key="host.address" value=""/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv1].com.pemicro.mcu.debug.connections.pne.cfv1.STARTUP_interface_selection" value="3"/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv1].com.pemicro.mcu.debug.connections.pne.cfv1.STARTUP_PORT" value="1"/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv1].com.pemicro.mcu.debug.connections.pne.cfv1.STARTUP_CyclonePro_poweroffonexit" value="1"/>
+<property key="propertySet.[com.freescale.mcu.debug.connections.osbdm.cfv1].com.freescale.mcu.debug.connections.osbdm.cfv1.ConfigFile" value=""/>
+<property key="propertySet.[com.freescale.mcu.debug.connections.osbdm.cfv1].com.freescale.mcu.debug.connections.osbdm.cfv1.names_of_user_added_attributes" value=""/>
+<property key="propertySet.[cw.dbg.ct].Connection Type" value="com.pemicro.mcu.debug.connections.pne.cfv1"/>
+<property key="propertySet.[com.freescale.mcu.debug.connections.osbdm.cfv1].com.freescale.cdt.debug.cw.CW_SHADOWED_PREF.Embedded Initialization.simulator" value=""/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv1].com.pemicro.mcu.debug.connections.pne.cfv1.UUID" value="9d85f021-0894-4f57-ad6a-17f358939781"/>
+<property key="host.defaultEncoding" value=""/>
+<property key="propertySet.[com.freescale.mcu.debug.connections.osbdm.cfv1].com.freescale.cdt.debug.cw.core.settings.GdiConnection.Common.SimulatorConnectionAttributeBase" value=""/>
+<property key="propertySet.[cw.ide.settingscache].hidden.TimeStamp" value="1299062058791"/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv1].com.pemicro.mcu.debug.connections.pne.cfv1.Library" value="cf_pne_gdi"/>
+<property key="host.description" value=""/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv1].com.freescale.cdt.debug.cw.CW_SHADOWED_PREF.Embedded Initialization.simulator" value=""/>
+<property key="propertySet.[com.freescale.mcu.debug.connections.osbdm.cfv1].com.freescale.mcu.debug.connections.osbdm.cfv1.CommandLineArgs" value=""/>
+<property key="propertySet.[cw.dbg.ct.bareboard].initPath" value="${MQX_ROOT_DIR}\lib\twrmcf51cn.cw10\dbg\twrmcf51cn.cfg"/>
+<property key="propertySet.[cw.dbg.ct.targetConnLost].RetryWithTimeoutOn" value="false"/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv1].com.freescale.cdt.debug.cw.core.settings.GdiConnection.Common.PhysicalConnectionAttributeBase" value="com.pemicro.mcu.debug.connections.pne.cfv1."/>
+<property key="propertySet.[cw.dbg.ct.targetConnLost].TerminateConnectionOn" value="false"/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv1].com.pemicro.mcu.debug.connections.pne.cfv1.CommandLineArgs" value=""/>
+<property key="propertySet.[OptionalPropertySet].enableGenericHostPropertyPage" value="false"/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv1].com.freescale.cdt.debug.cw.core.settings.GdiConnection.Common.SimulatorConnectionAttributeBase" value=""/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv1].com.pemicro.mcu.debug.connections.pne.cfv1.STARTUP_CyclonePro_currentvoltage" value="255"/>
+<property key="host.name" value="TWRMCF51CN OSBDM"/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv1].com.pemicro.mcu.debug.connections.pne.cfv1.STARTUP_SPECIFY_NETWORKCARD_ENABLED" value="0"/>
+<property key="propertySet.[cw.dbg.ct.bareboard].runOutOfReset" value="false"/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv1].com.pemicro.mcu.debug.connections.pne.cfv1.ConfigFile" value=""/>
+</properties>
+</host>
+</APSC_Memento>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.arm.eclipse.build.config.baremetal.lib.debug.1203631079">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.arm.eclipse.build.config.baremetal.lib.debug.1203631079" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.arm.eclipse.builder.armcc.error" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="com.arm.eclipse.build.artefact.baremetal.lib" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=com.arm.eclipse.build.artefact.baremetal.lib" cleanCommand="clean" description="" id="com.arm.eclipse.build.config.baremetal.lib.debug.1203631079" name="Debug" parent="com.arm.eclipse.build.config.baremetal.lib.debug" postbuildStep="" prebuildStep="">
+					<folderInfo id="com.arm.eclipse.build.config.baremetal.lib.debug.1203631079." name="/" resourcePath="">
+						<toolChain id="com.arm.toolchain.baremetal.lib.debug.966772519" name="ARM Compiler" nonInternalBuilderId="com.arm.toolchain.baremetal.builder" superClass="com.arm.toolchain.baremetal.lib.debug">
+							<targetPlatform id="com.arm.eclipse.build.config.baremetal.lib.debug.1203631079..1804451744" name=""/>
+							<builder autoBuildTarget="all" buildPath="${workspace_loc:/lib_generic_arm_m4/Debug}" cleanBuildTarget="clean" id="org.eclipse.cdt.build.core.internal.builder.285381212" incrementalBuildTarget="all" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="org.eclipse.cdt.build.core.internal.builder"/>
+							<tool id="com.arm.tool.c.compiler.baremetal.lib.debug.861540064" name="ARM C Compiler" superClass="com.arm.tool.c.compiler.baremetal.lib.debug">
+								<option id="com.arm.tool.c.compiler.option.targetcpu.1625964124" name="Target CPU (--cpu)" superClass="com.arm.tool.c.compiler.option.targetcpu" value="Cortex-M4" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.incpath.371999988" name="Include path (-I)" superClass="com.arm.tool.c.compiler.option.incpath"/>
+								<option id="com.arm.tool.c.compiler.option.defmac.426539113" name="Define macro (-D)" superClass="com.arm.tool.c.compiler.option.defmac"/>
+								<option id="com.arm.tool.c.compiler.baremetal.lib.debug.option.opt.755043348" name="Optimization level" superClass="com.arm.tool.c.compiler.baremetal.lib.debug.option.opt" value="com.arm.tool.c.compiler.option.optlevel.min" valueType="enumerated"/>
+								<option id="com.arm.tool.c.compiler.option.flags.1664652025" name="Other flags" superClass="com.arm.tool.c.compiler.option.flags" value="--c99 --split_sections " valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.suppress.29885960" superClass="com.arm.tool.c.compiler.option.suppress" value="550,177" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.targetfpu.478074944" superClass="com.arm.tool.c.compiler.option.targetfpu" value="FPv4-SP" valueType="string"/>
+								<inputType id="com.arm.tool.c.compiler.input.896588139" superClass="com.arm.tool.c.compiler.input"/>
+								<inputType id="com.arm.tool.cpp.compiler.input.1541708306" superClass="com.arm.tool.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.arm.tool.cpp.compiler.baremetal.lib.debug.160243894" name="ARM C++ Compiler" superClass="com.arm.tool.cpp.compiler.baremetal.lib.debug">
+								<option id="com.arm.tool.c.compiler.option.flags.1857786842" name="Other flags" superClass="com.arm.tool.c.compiler.option.flags" value="--c99 --split_sections " valueType="string"/>
+							</tool>
+							<tool id="com.arm.tool.assembler.222466471" name="ARM Assembler" superClass="com.arm.tool.assembler">
+								<option id="com.arm.tool.assembler.option.preprocflags.73905309" name="Preprocessor options (--cpreproc_opts)" superClass="com.arm.tool.assembler.option.preprocflags" value="" valueType="string"/>
+								<option id="com.arm.tool.assembler.option.flags.162666802" name="Other flags" superClass="com.arm.tool.assembler.option.flags" value="" valueType="string"/>
+								<option id="com.arm.tool.assembler.option.cpu.1941238048" name="Target CPU (--cpu)" superClass="com.arm.tool.assembler.option.cpu" value="Cortex-M4" valueType="string"/>
+								<option id="com.arm.tool.assembler.option.preproc.664063760" name="Preprocess input before assembling (--cpreproc)" superClass="com.arm.tool.assembler.option.preproc" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.assembler.option.fpu.451295114" superClass="com.arm.tool.assembler.option.fpu" value="FPv4-SP" valueType="string"/>
+							</tool>
+							<tool id="com.arm.tool.c.linker.1927726651" name="ARM Linker" superClass="com.arm.tool.c.linker"/>
+							<tool id="com.arm.tool.librarian.1986519783" name="ARM Librarian" superClass="com.arm.tool.librarian"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.arm.eclipse.build.config.baremetal.lib.release.601052901">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.arm.eclipse.build.config.baremetal.lib.release.601052901" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.arm.eclipse.builder.armcc.error" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="com.arm.eclipse.build.artefact.baremetal.lib" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=com.arm.eclipse.build.artefact.baremetal.lib" cleanCommand="clean" description="" id="com.arm.eclipse.build.config.baremetal.lib.release.601052901" name="Release" parent="com.arm.eclipse.build.config.baremetal.lib.release" postbuildStep="" prebuildStep="">
+					<folderInfo id="com.arm.eclipse.build.config.baremetal.lib.release.601052901." name="/" resourcePath="">
+						<toolChain id="com.arm.toolchain.baremetal.lib.release.179743692" name="ARM Compiler" nonInternalBuilderId="com.arm.toolchain.baremetal.builder" superClass="com.arm.toolchain.baremetal.lib.release">
+							<targetPlatform id="com.arm.eclipse.build.config.baremetal.lib.release.601052901..876356239" name=""/>
+							<builder autoBuildTarget="all" buildPath="${workspace_loc:/lib_generic_arm_m4/Release}" cleanBuildTarget="clean" id="org.eclipse.cdt.build.core.internal.builder.2073305060" incrementalBuildTarget="all" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="org.eclipse.cdt.build.core.internal.builder"/>
+							<tool id="com.arm.tool.c.compiler.baremetal.lib.release.1267704053" name="ARM C Compiler" superClass="com.arm.tool.c.compiler.baremetal.lib.release">
+								<option id="com.arm.tool.c.compiler.option.targetcpu.1625964125" name="Target CPU (--cpu)" superClass="com.arm.tool.c.compiler.option.targetcpu" value="Cortex-M4" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.incpath.371999989" name="Include path (-I)" superClass="com.arm.tool.c.compiler.option.incpath"/>
+								<option id="com.arm.tool.c.compiler.option.defmac.426539114" name="Define macro (-D)" superClass="com.arm.tool.c.compiler.option.defmac"/>
+								<option id="com.arm.tool.c.compiler.option.flags.1646545449" name="Other flags" superClass="com.arm.tool.c.compiler.option.flags" value="--c99 --split_sections " valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.suppress.904447691" superClass="com.arm.tool.c.compiler.option.suppress" value="550,177" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.targetfpu.158481101" superClass="com.arm.tool.c.compiler.option.targetfpu" value="FPv4-SP" valueType="string"/>
+								<inputType id="com.arm.tool.c.compiler.input.294942619" superClass="com.arm.tool.c.compiler.input"/>
+								<inputType id="com.arm.tool.cpp.compiler.input.353211081" superClass="com.arm.tool.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.arm.tool.cpp.compiler.baremetal.lib.release.1263641361" name="ARM C++ Compiler" superClass="com.arm.tool.cpp.compiler.baremetal.lib.release">
+								<option id="com.arm.tool.c.compiler.option.flags.122262147" name="Other flags" superClass="com.arm.tool.c.compiler.option.flags" value="--c99 --split_sections " valueType="string"/>
+							</tool>
+							<tool id="com.arm.tool.assembler.1590074096" name="ARM Assembler" superClass="com.arm.tool.assembler">
+								<option id="com.arm.tool.assembler.option.preprocflags.73905310" name="Preprocessor options (--cpreproc_opts)" superClass="com.arm.tool.assembler.option.preprocflags" value="" valueType="string"/>
+								<option id="com.arm.tool.assembler.option.flags.162666803" name="Other flags" superClass="com.arm.tool.assembler.option.flags" value="" valueType="string"/>
+								<option id="com.arm.tool.assembler.option.cpu.1941238049" name="Target CPU (--cpu)" superClass="com.arm.tool.assembler.option.cpu" value="Cortex-M4" valueType="string"/>
+								<option id="com.arm.tool.assembler.option.preproc.664063761" name="Preprocess input before assembling (--cpreproc)" superClass="com.arm.tool.assembler.option.preproc" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.assembler.option.fpu.749599451" superClass="com.arm.tool.assembler.option.fpu" value="FPv4-SP" valueType="string"/>
+							</tool>
+							<tool id="com.arm.tool.c.linker.2008145394" name="ARM Linker" superClass="com.arm.tool.c.linker"/>
+							<tool id="com.arm.tool.librarian.1782554184" name="ARM Librarian" superClass="com.arm.tool.librarian"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="com.arm.eclipse.build.project.baremetal.lib.316881715" name="Bare-metal Library" projectType="com.arm.eclipse.build.project.baremetal.lib"/>
+	</storageModule>
+	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.arm.eclipse.build.config.baremetal.lib.debug.1203631079;com.arm.eclipse.build.config.baremetal.lib.debug.1203631079.;com.arm.tool.c.compiler.baremetal.lib.debug.861540064;com.arm.tool.c.compiler.input.896588139">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.arm.eclipse.builder.armcc.ARMCompilerDiscoveryProfile"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cproject>

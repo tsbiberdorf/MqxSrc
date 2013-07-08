@@ -1,0 +1,135 @@
+<!DOCTYPE HTML SYSTEM>
+<html>
+<head>
+<title>Freescale MQX Webserver</title>
+<style type="text/css">
+<!--
+@import"mqx.css";
+-->
+</style>
+
+<script src="request.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+if (window.attachEvent) {
+	window.attachEvent("onload", sfHover2);
+}
+</script>
+
+</head>
+<body>
+
+	<a href="http://www.freescale.com" title="Freescale"><img
+		src="header.gif" alt="Freescale Semiconductor" width="990" height="50"
+		border="0" /> </a>
+
+
+
+	<div id="lfnvcl">
+		<ul id="lnv">
+			<li><h3>
+					<a href="mqx.html" class="pt">Webserver Home</a>
+				</h3>
+			</li>
+			<li><h3>
+					<a href="hvac.html">HVAC Demo...</a>
+				</h3>
+				<ul>
+					<li><a href="hvac.html">HVAC Status</A>
+					</li>
+					<li><a href="hvac_input.html">Change Settings</A>
+					</li>
+				</ul></li>
+			<li><a href="rtc.html">System Run Time (RTC)</a>
+			</li>
+			<li id="usbstick" style="visibility: <% usb_status_fn %>;"><a href="usb/index.htm">Browse
+					USB Mass Storage Device</a>
+			</li>
+		</ul>
+	</div>
+
+
+
+	<div id="mncnt" class="cframe">
+
+		<div class="padMe5"></div>
+		<div class="lcn" style="width: 594px; height: 269px">
+
+			<div class="hrw">
+				<hr>
+			</div>
+			<h1>
+				<strong>HVAC Demo - <A HREF="hvac_input.html">Change
+						Settings</A> </strong>
+			</h1>
+
+			<div class="hrw">
+				<hr>
+			</div>
+
+			<DIV id="mode">
+				<h1>Mode:</h1>
+			</DIV>
+			<DIV id="desired">
+				<h1>Desired Temp:</h1>
+			</DIV>
+			<DIV id="actual">
+				<h1>Actual Temp:</h1>
+			</DIV>
+			<DIV id="fan_mode">
+				<h1>Fan Mode:</h1>
+			</DIV>
+			<BR> <BR>
+			<DIV id="fan_on">
+				<h1>Fan:</h1>
+			</DIV>
+			<DIV id="furnance_on">
+				<h1>Furnance:</h1>
+			</DIV>
+			<DIV id="ac_on">
+				<h1>AC:</h1>
+			</DIV>
+
+
+		</div>
+
+	</div>
+  
+<script type="text/javascript">
+
+	function parse_vars(data) {
+		var parsed = data.split("\n");
+
+		hvac_value[0] = parsed[0];
+		hvac_value[1] = parsed[1];
+		hvac_value[2] = parsed[2];
+		hvac_value[3] = parsed[3];
+		hvac_value[4] = parsed[4];
+		hvac_value[5] = parsed[5];
+		hvac_value[6] = parsed[6];
+
+		document.getElementById('mode').innerHTML = "<h1>Mode: " + hvac_value[0] + "</h1>";
+		document.getElementById('desired').innerHTML = "<h1>Desired Temp: " + hvac_value[1] + "</h1>";
+		document.getElementById('actual').innerHTML = "<h1>Actual Temp: " + hvac_value[2] + "</h1>";
+		document.getElementById('fan_mode').innerHTML = "<h1>Fan Mode: " + hvac_value[3] + "</h1>";
+		document.getElementById('fan_on').innerHTML = "<h1>Fan: " + hvac_value[4] + "</h1>";
+		document.getElementById('furnance_on').innerHTML = "<h1>Furnance: " + hvac_value[5] + "</h1>";
+		document.getElementById('ac_on').innerHTML = "<h1>AC: " + hvac_value[6] + "</h1>";
+	}
+
+	function pageLoop() {
+		if (!data_received) {
+			makeRequest("hvacdata.cgi", alertContents);
+			makeRequest("usbstat.cgi", refreshUSBStatus);
+		}
+
+		setTimeout("pageLoop()", 1000);
+	}
+  
+  window.onload = pageLoop;
+  
+</script>
+
+</body>
+
+</html>

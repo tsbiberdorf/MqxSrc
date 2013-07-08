@@ -1,0 +1,30 @@
+################################################################################
+# These macros are used by makefiles and argument files.
+# When a space is included in the path and quotes (") cannot be used,
+# a _ESCAPE version of the macro is added that escapes the space with backslash (\).
+################################################################################
+
+export CONFIG=D:/projects/Freescale/Freescale_MQX_4_0/config
+export GNU_Make_Install_DirEnv=$(CWInstallLocationEnv)/gnu/bin
+export COMPILER=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/psp/cortex_m/compiler
+export FLASHX=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/io/flashx
+export CWInstallLocationEnv=D:/Freescale/CW MCU v10.4
+export IO=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/io
+export MFS=D:/projects/Freescale/Freescale_MQX_4_0/lib/twrk60d100m.cw10/debug/mfs
+export GENERIC=D:/projects/Freescale/Freescale_MQX_4_0/mfs/source/generic
+export BSP=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/bsp
+export SOURCE1=D:/projects/Freescale/Freescale_MQX_4_0/mfs/source
+export SDCARD=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/io/sdcard
+export SAI=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/io/sai
+export CORE=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/psp/cortex_m/core
+export ENET=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/io/enet
+export SOURCE=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source
+export GPIO=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/io/gpio
+export PSP=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/psp
+export MCUToolsBaseDirEnv=$(CWInstallLocationEnv)/MCU
+export CORTEX_M=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/psp/cortex_m
+export CAN=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/io/can
+export ARM_ToolsDirEnv=$(CWInstallLocationEnv)/MCU/ARM_Tools/Command_Line_Tools
+export ADC=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/io/adc
+export PCB=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/io/pcb
+export I2C=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/io/i2c

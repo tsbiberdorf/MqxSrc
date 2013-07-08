@@ -1,0 +1,14 @@
+__aliases__:
+  propertyAll         : &propertyAll          { installer : 1, project: 1, batch : 1, make : 1, beart : 1 }
+  propertyAllIp6      : &propertyAllIp6       { installer : 1, project: 1, batch : 1, make : 1, beart : 1 }
+  propertyNoBatchIp6  : &propertyNoBatchIp6   { installer : 0, project: 0, batch : 0, make : 0, beart : 1, ip6 : 1 }
+  propertyNoBatch     : &propertyNoBatch      { installer : 1, project: 1, batch : 0, make : 1, beart : 1 }
+  propertyNone        : &propertyNone         { installer : 0, project: 0, batch : 0, make : 0, beart : 0 }
+  propertyBatch       : &propertyBatch        { installer : 1, project: 0, batch : 1, make : 0, beart : 0 }
+  propertyNoInstaller : &propertyNoInstaller  { installer : 0, project: 1, batch : 1, make : 1, beart : 1 }
+  propertyInstaller   : &propertyInstaller    { installer : 1, project: 0, batch : 0, make : 0, beart : 0 }
+  propertyBeart       : &propertyBeart        { installer : 1, project: 0, batch : 0, make : 0, beart : 1 }
+  propertyProject     : &propertyProject      { installer : 1, project: 1, batch : 0, make : 0, beart : 0 }
+  propertyMake        : &propertyMake         { installer : 1, project: 0, batch : 0, make : 1, beart : 1 }
+  propertyMakeNBatch  : &propertyMakeNBatch   { installer : 1, project: 0, batch : 1, make : 1, beart : 1 }
+

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<wizardExtension>
+	<newProjectExtension>
+		<launchSettings>
+			
+			<settingsGroup id="MQX_e200_single_core_settings_int_ram" conditionId="mcu.mqxprojectwizard1.condition.pa.singleCore.mode">
+				
+				<settingsGroupRef id="MQX_e200_single_core_settings"/>
+				
+				<applySetting id="com.freescale.cdt.debug.cw.CW_SHADOWED_PREF.Embedded Initialization.useInitFile" value="false" type="boolean"/>
+				<applySetting id="com.freescale.cdt.debug.cw.CW_SHADOWED_PREF.Embedded Initialization.initPath" value="${MQX_ROOT_DIR}/lib/${BoardName}.cw10/dbg/${Mqx_IntRam_TclFileName}" type="string"/>
+				
+			</settingsGroup>
+			
+		</launchSettings>
+	</newProjectExtension>
+</wizardExtension>

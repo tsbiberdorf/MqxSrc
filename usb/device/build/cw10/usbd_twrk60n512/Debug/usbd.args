@@ -1,0 +1,31 @@
+"./USB Class Drivers/audio/usb_audio_c.obj"
+"./USB Class Drivers/cdc/usb_cdc_pstn_c.obj"
+"./USB Class Drivers/cdc/usb_cdc_c.obj"
+"./USB Class Drivers/framework/usb_framework_c.obj"
+"./USB Class Drivers/hid/usb_hid_c.obj"
+"./USB Class Drivers/msd/usb_msc_scsi_c.obj"
+"./USB Class Drivers/msd/usb_msc_c.obj"
+"./USB Class Drivers/phdc/usb_phdc_c.obj"
+"./USB Class Drivers/usb_class/usb_class_c.obj"
+"./USB Device/source/dev_utl_c.obj"
+"./USB Device/source/dev_shut_c.obj"
+"./USB Device/source/dev_send_c.obj"
+"./USB Device/source/dev_recv_c.obj"
+"./USB Device/source/dev_main_c.obj"
+"./USB Device/source/dev_ep_deinit_c.obj"
+"./USB Device/source/dev_cncl_c.obj"
+"./USB Low Level Driver/khci/khci_dev_main_c.obj"
+"./USB Low Level Driver/khci/callback_khci_c.obj"
+-proc cortex-m4
+-fp soft
+-little
+-msgstyle parseable
+-g3
+-thumb
+-interworking
+-nostdlib
+-L"$(MCUToolsBaseDirEnv)/ARM_EABI_Support/ewl/lib"
+-library
+-map
+-srec
+-sreclength 80

@@ -1,0 +1,38 @@
+"./USB Class Drivers/audio/usb_host_audio_intf_c.obj"
+"./USB Class Drivers/audio/usb_host_audio_c.obj"
+"./USB Class Drivers/cdc/usb_host_cdc_intf_c.obj"
+"./USB Class Drivers/cdc/usb_host_cdc_c.obj"
+"./USB Class Drivers/hid/usb_host_hid_c.obj"
+"./USB Class Drivers/hub/usb_host_hub_sm_c.obj"
+"./USB Class Drivers/hub/usb_host_hub_c.obj"
+"./USB Class Drivers/msd/usbmfs_c.obj"
+"./USB Class Drivers/msd/usb_host_msd_ufi_c.obj"
+"./USB Class Drivers/msd/usb_host_msd_queue_c.obj"
+"./USB Class Drivers/msd/usb_host_msd_bo_c.obj"
+"./USB Class Drivers/phdc/usb_host_phdc_c.obj"
+"./USB Class Drivers/printer/usb_host_printer_c.obj"
+"./USB Host/os/usb_mqx_c.obj"
+"./USB Host/os/mqx_dll_c.obj"
+"./USB Host/source/host_snd_c.obj"
+"./USB Host/source/host_shut_c.obj"
+"./USB Host/source/host_rcv_c.obj"
+"./USB Host/source/host_main_c.obj"
+"./USB Host/source/host_dev_list_c.obj"
+"./USB Host/source/host_common_c.obj"
+"./USB Host/source/host_cnl_c.obj"
+"./USB Host/source/host_close_c.obj"
+"./USB Host/source/host_ch9_c.obj"
+"./USB Low Level Driver/khci/khci_c.obj"
+-proc cortex-m4
+-fp soft
+-little
+-msgstyle parseable
+-g3
+-thumb
+-interworking
+-nostdlib
+-L"$(MCUToolsBaseDirEnv)/ARM_EABI_Support/ewl/lib"
+-library
+-map
+-srec
+-sreclength 80

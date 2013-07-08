@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3350241887</fileChecksum>
+  <configuration>
+    <name>Int Flash Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\config.h</file>
+      <file>$PROJ_DIR$\..\..\snmp_demo.c</file>
+      <file>$PROJ_DIR$\..\..\snmp_demo.h</file>
+      <file>$PROJ_DIR$\..\..\snmptraps.c</file>
+      <file>$PROJ_DIR$\twrk60n512\Int Flash Debug\Obj\snmptraps.pbi</file>
+      <file>$PROJ_DIR$\twrk60n512\Int Flash Debug\Obj\snmptraps.o</file>
+      <file>$PROJ_DIR$\twrk60n512\Int Flash Debug\Obj\snmp_demo.pbi</file>
+      <file>$PROJ_DIR$\twrk60n512\Int Flash Debug\Obj\snmp_twrk60n512.pbd</file>
+      <file>$PROJ_DIR$\twrk60n512\Int Flash Debug\Exe\snmp_twrk60n512.srec</file>
+      <file>$PROJ_DIR$\twrk60n512\Int Flash Debug\Exe\twrk60n512.out</file>
+      <file>$PROJ_DIR$\twrk60n512\Int Flash Debug\Obj\snmp_demo.o</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\snmp_demo.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\snmptraps.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\twrk60n512\Int Flash Debug\Exe\twrk60n512.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Int Flash Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Int Ram Debug</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Int Ram Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

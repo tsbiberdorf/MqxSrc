@@ -1,0 +1,57 @@
+@echo off
+
+rem convert path to backslash format
+set MQXROOTDIR=%1
+set MQXROOTDIR=%MQXROOTDIR:/=\%
+set OUTPUTDIR=%2
+set OUTPUTDIR=%OUTPUTDIR:/=\%
+set TOOL=%3
+
+[%  IF pePath -%]
+rem remove processor expert files if exists
+IF EXIST %OUTPUTDIR%\Generated_Code rd /S /Q %OUTPUTDIR%\Generated_Code
+IF EXIST %OUTPUTDIR%\Sources rd /S /Q %OUTPUTDIR%\Sources
+[%  END -%]
+
+rem copy common files
+IF NOT EXIST %OUTPUTDIR% mkdir %OUTPUTDIR%
+[%  IF common.size -%]
+[%      FOREACH directory IN common.dirs.keys.sort -%]
+IF NOT EXIST %OUTPUTDIR%\[% directory | replace('/', '\\') %] mkdir %OUTPUTDIR%\[% directory | replace('/', '\\') %]
+[%      END -%]
+[%      FOREACH source IN common.copy.keys.sort -%]
+[%      target = common.copy.$source            -%]
+copy %MQXROOTDIR%\[% source | replace('/', '\\') %] %OUTPUTDIR%\[% target | replace('/', '\\') %] /Y
+[%      END -%]
+[%  END -%]
+
+
+[%  IF tools.size -%]
+goto tool_%TOOL%
+
+[%      FOREACH tool IN tools.keys -%]
+rem [% tool %] files
+:tool_[% tool %]
+[%          FOREACH directory IN tools.$tool.dirs.keys.sort -%]
+IF NOT EXIST %OUTPUTDIR%\[% directory | replace('/', '\\') %] mkdir %OUTPUTDIR%\[% directory | replace('/', '\\') %]
+[%          END -%]
+[%#
+    I have no IDEA how to add ProcessorExpert files in clear way
+    so I'm using just another IF ...
+#-%]
+[%          IF tools.$tool.pePath -%]
+IF NOT EXIST %OUTPUTDIR%\Generated_Code mkdir %OUTPUTDIR%\Generated_Code
+for /R %MQXROOTDIR%\[% tools.$tool.pePath | replace('/', '\\') %]\Generated_Code %%f in (*.h) do copy %%f %OUTPUTDIR%\Generated_Code\
+IF NOT EXIST %OUTPUTDIR%\Sources mkdir %OUTPUTDIR%\Sources
+for /R %MQXROOTDIR%\[% tools.$tool.pePath | replace('/', '\\') %]\Sources %%f in (*.h) do copy %%f %OUTPUTDIR%\Sources\
+[%          END -%]
+[%          FOREACH source IN tools.$tool.copy.keys.sort -%]
+[%          target = tools.$tool.copy.$source   -%]
+copy %MQXROOTDIR%\[% source | replace('/', '\\') %] %OUTPUTDIR%\[% target | replace('/', '\\') %] /Y
+[%          END -%]
+goto copy_end
+
+[%      END -%]
+[%  END -%]
+:copy_end
+

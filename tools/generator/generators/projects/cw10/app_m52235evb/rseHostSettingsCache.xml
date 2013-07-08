@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<APSC_Memento>
+<host>
+<properties>
+<property key="propertySet.[cw.dbg.ct.targetConnLost].RetryConnectionOn" value="false"/>
+<property key="propertySet.[cw.dbg.ct.bareboard].memConfigPath" value="${MQX_ROOT_DIR}\lib\m52235evb.cw10\dbg\m52235evb.mem"/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv234].com.freescale.cdt.debug.cw.CW_SHADOWED_PREF.Embedded Initialization.simulator" value=""/>
+<property key="propertySet.[cw.dbg.ct].Connection Type" value="com.pemicro.mcu.debug.connections.pne.cfv234"/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv234].com.pemicro.mcu.debug.connections.pne.cfv234.STARTUP_SPECIFY_NETWORKCARD_ENABLED" value="0"/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv234].com.pemicro.mcu.debug.connections.pne.cfv234.ConfigFile" value=""/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv234].com.pemicro.mcu.debug.connections.pne.cfv234.STARTUP_SPECIFY_IP_ENABLED" value="0"/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv234].com.pemicro.mcu.debug.connections.pne.cfv234.UUID" value="19c60f8c-7ee3-4927-b2d9-e4050fb2dfe6"/>
+<property key="propertySet.[cw.ide.settingscache].hidden.HostID" value="com.freescale.cdt.debug.cw.core.ui.rse.systemtype.bareboard.hardware.110228170201+0100"/>
+<property key="host.defaultEncoding" value=""/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv234].com.pemicro.mcu.debug.connections.pne.cfv234.STARTUP_PCI_DELAY" value="4"/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv234].com.pemicro.mcu.debug.connections.pne.cfv234.Library" value="cf_pne_gdi"/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv234].com.freescale.cdt.debug.cw.core.settings.GdiConnection.Common.PhysicalConnectionAttributeBase" value="com.pemicro.mcu.debug.connections.pne.cfv234."/>
+<property key="propertySet.[cw.ide.settingscache].hidden.TimeStamp" value="1298910347883"/>
+<property key="propertySet.[cw.dbg.ct.targetConnLost].RetryTimeout" value="20"/>
+<property key="propertySet.[cw.dbg.ct.bareboard].useMemoryConfigFile" value="true"/>
+<property key="propertySet.[cw.dbg.ct.targetConnLost].retryPromptUserActionOn" value="true"/>
+<property key="host.description" value=""/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv234].com.pemicro.mcu.debug.connections.pne.cfv234.STARTUP_RESET_DELAY" value="500"/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv234].com.pemicro.mcu.debug.connections.pne.cfv234.CommandLineArgs" value=""/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv234].com.pemicro.mcu.debug.connections.pne.cfv234.STARTUP_SPECIFY_NETWORKCARD" value="127.0.0.1"/>
+<property key="propertySet.[cw.dbg.main].systemType" value="com.freescale.cw.system.coldfire.MCF5223X.MCF52235"/>
+<property key="propertySet.[cw.dbg.ct.bareboard].initPath" value="${MQX_ROOT_DIR}\lib\m52235evb.cw10\dbg\m52235evb.cfg"/>
+<property key="propertySet.[cw.dbg.ct.targetConnLost].RetryWithTimeoutOn" value="false"/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv234].com.pemicro.mcu.debug.connections.pne.cfv234.STARTUP_SPECIFY_IP" value="127.0.0.1"/>
+<property key="host.promptable" value="false"/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv234].com.pemicro.mcu.debug.connections.pne.cfv234.STARTUP_interface_selection" value="3"/>
+<property key="propertySet.[cw.dbg.ct.bareboard].useInitFile" value="true"/>
+<property key="propertySet.[cw.dbg.ct.targetConnLost].TerminateConnectionOn" value="false"/>
+<property key="propertySet.[OptionalPropertySet].enableConnectorServicesPropertyPage" value="false"/>
+<property key="host.type" value="com.freescale.cdt.debug.cw.core.ui.rse.systemtype.bareboard.hardware"/>
+<property key="host.defaultUser" value=""/>
+<property key="propertySet.[cw.dbg.ct.bareboard.gdi].logData" value="false"/>
+<property key="propertySet.[OptionalPropertySet].enableGenericHostPropertyPage" value="false"/>
+<property key="propertySet.[cw.dbg.ct.bareboard].executeReset" value="true"/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv234].com.freescale.cdt.debug.cw.core.settings.GdiConnection.Common.SimulatorConnectionAttributeBase" value=""/>
+<property key="host.name" value="M52235EVB PEBDM"/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv234].com.pemicro.mcu.debug.connections.pne.cfv234.STARTUP_PORT" value="1"/>
+<property key="host.address" value=""/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.cfv234].com.pemicro.mcu.debug.connections.pne.cfv234.STARTUP_USE_BDM_INTERFACE_FOR_FREEZE_DETECTION" value="false"/>
+<property key="propertySet.[cw.dbg.ct.bareboard].runOutOfReset" value="false"/>
+</properties>
+</host>
+</APSC_Memento>

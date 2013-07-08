@@ -1,0 +1,44 @@
+################################################################################
+# These macros are used by makefiles and argument files.
+# When a space is included in the path and quotes (") cannot be used,
+# a _ESCAPE version of the macro is added that escapes the space with backslash (\).
+################################################################################
+
+export AUDIO=D:/projects/Freescale/Freescale_MQX_4_0/usb/host/source/classes/audio
+export MFS=D:/projects/Freescale/Freescale_MQX_4_0/usb/host/source/classes/msd/mfs
+export HOST=D:/projects/Freescale/Freescale_MQX_4_0/usb/host/source/host
+export ENET=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/io/enet
+export SOURCE=D:/projects/Freescale/Freescale_MQX_4_0/usb/host/source
+export CLASSES=D:/projects/Freescale/Freescale_MQX_4_0/usb/host/source/classes
+export CAN=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/io/can
+export ARM_ToolsDirEnv=$(CWInstallLocationEnv)/MCU/ARM_Tools/Command_Line_Tools
+export PCB=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/io/pcb
+export KHCI=D:/projects/Freescale/Freescale_MQX_4_0/usb/host/source/host/khci
+export IO=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/io
+export HID=D:/projects/Freescale/Freescale_MQX_4_0/usb/host/source/classes/hid
+export BSP=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/bsp
+export PHDC=D:/projects/Freescale/Freescale_MQX_4_0/usb/host/source/classes/phdc
+export MSD=D:/projects/Freescale/Freescale_MQX_4_0/usb/host/source/classes/msd
+export COMMON=D:/projects/Freescale/Freescale_MQX_4_0/usb/common
+export GPIO=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/io/gpio
+export PSP=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/psp
+export ADC=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/io/adc
+export MQX=D:/projects/Freescale/Freescale_MQX_4_0/usb/host/source/rtos/mqx
+export GNU_Make_Install_DirEnv=$(CWInstallLocationEnv)/gnu/bin
+export RTOS=D:/projects/Freescale/Freescale_MQX_4_0/usb/host/source/rtos
+export FLASHX=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/io/flashx
+export CWInstallLocationEnv=D:/Freescale/CW MCU v10.4
+export I2S=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/io/i2s
+export SDCARD=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/io/sdcard
+export SOURCE1=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source
+export CORE=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/psp/cortex_m/core
+export MCUToolsBaseDirEnv=$(CWInstallLocationEnv)/MCU
+export CDC=D:/projects/Freescale/Freescale_MQX_4_0/usb/host/source/classes/cdc
+export CONFIG=D:/projects/Freescale/Freescale_MQX_4_0/config
+export COMPILER=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/psp/cortex_m/compiler
+export PRINTER=D:/projects/Freescale/Freescale_MQX_4_0/usb/host/source/classes/printer
+export TSS=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/io/hmi/TSS
+export USB=D:/projects/Freescale/Freescale_MQX_4_0/lib/twrk60n512.cw10/debug/usb
+export HUB=D:/projects/Freescale/Freescale_MQX_4_0/usb/host/source/classes/hub
+export CORTEX_M=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/psp/cortex_m
+export I2C=D:/projects/Freescale/Freescale_MQX_4_0/mqx/source/io/i2c
